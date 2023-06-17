@@ -23,7 +23,7 @@ export default function Home() {
           <section className=' fixed inset-x-0 top-0'>
 
             <center>
-            <nav className=' mx-8 sm:mx-24 lg:mx-64 pb-1 pt-2 sm:py-3 backdrop-blur-2xl bg-slate-600 dark:bg-slate-900 bg-opacity-20 mt-10 m-auto p-4 border border-gray-900 flex justify-between rounded-2xl'>
+            <nav className=' mx-8 sm:mx-24 lg:mx-64 pb-1 pt-2 sm:py-3 backdrop-blur-2xl dark:backdrop-blur-2xl bg-slate-600 dark:bg-slate-900 bg-opacity-20 dark:bg-opacity-40 mt-10 m-auto p-4 border border-gray-900 dark:border-white dark:border-opacity-60 flex justify-between rounded-2xl'>
 
               <div className=' block sm:flex sm:justify-between sm:gap-24'>
                 <div className=' flex gap-4'>
