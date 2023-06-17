@@ -23,10 +23,10 @@ export default function Home() {
           <section className=' fixed inset-x-0 top-0'>
 
             <center>
-            <nav className=' mx-8 sm:mx-24 lg:mx-64 py-1 sm:py-3 backdrop-blur-2xl bg-slate-600 bg-opacity-20 mt-10 m-auto p-4 border border-gray-900 flex justify-between rounded-2xl'>
+            <nav className=' mx-8 sm:mx-24 lg:mx-64 pb-1 pt-2 sm:py-3 backdrop-blur-2xl bg-slate-600 bg-opacity-20 mt-10 m-auto p-4 border border-gray-900 flex justify-between rounded-2xl'>
 
               <div className=' block sm:flex sm:justify-between sm:gap-24'>
-                <div className=' flex gap-4 '>
+                <div className=' flex gap-4'>
                   <img src="/portrait.jpg" alt="web dp" className='h-8 rounded-full' />
                   <div className=' text-sm text-left font-bold tracking-widest leading-tight dark:text-white font-sans animate-pulse'>
                     <p>Yemi</p>
