@@ -14,9 +14,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className=' px-4 bg-white dark:bg-black scroll-m-1 scroll-smooth'>
+      <main className=' bg-white dark:bg-black scroll-m-1 scroll-smooth'>
 
-      <section className=' lg:px-40'>
+      <section className=' px-4 lg:px-40'>
 
         <section className=''>
 
@@ -36,9 +36,9 @@ export default function Home() {
 
                 <ul className=' flex gap-x-8 sm:bg-white sm:bg-opacity-40 sm:rounded-full text-xs py-1 px-1 sm:px-3 mt-2 sm:mt-0 dark:text-white items-center'>
 
-                  <li><a href="#" className='underline sm:underline-offset-4 decoration-gray-400 decoration-dotted hover:bg-gray-400'>Portfolio</a></li>
-                  <li><a href="#" className='underline sm:underline-offset-4 decoration-gray-400 decoration-dotted hover:bg-gray-400'>Resume</a></li>
-                  <li><a href="#" className='underline sm:underline-offset-4 decoration-gray-400 decoration-dotted hover:bg-gray-400'>About</a></li>
+                  <li><a href="#" className='underline sm:underline-offset-4 decoration-gray-400 hover:bg-gray-400'>Portfolio</a></li>
+                  <li><a href="#" className='underline sm:underline-offset-4 decoration-gray-400 hover:bg-gray-400'>Resume</a></li>
+                  <li><a href="#" className='underline sm:underline-offset-4 decoration-gray-400 hover:bg-gray-400'>About</a></li>
               
                 </ul>
               </div>
@@ -83,7 +83,7 @@ export default function Home() {
 
  
         <section className='sm:px-40'>
-          <p className=' pt-32'><span className=' font-bold text-xl bg-gradient-to-r bg-clip-text text-transparent from-teal-600 to-pink-500'>Frontend Engineer </span><span className='text-white'>&#128170;</span><br /><br /></p>
+          <p className=' pt-32'><span className=' font-bold text-xl bg-gradient-to-r bg-clip-text text-transparent from-blue-700 to-gray-500'>Frontend Engineer </span><span className='text-white'>&#128170;</span><br /><br /></p>
 
           <p className=' dark:text-white font-bold'>Developing novel and meaningful solutions with a user first approach <br /><br /><br /></p>
 
@@ -142,27 +142,47 @@ export default function Home() {
 
         </section>
 
-        <section className=''>
-          <h1 id='exp' className=' text-6xl pt-24 lg:text-8xl dark:text-white text-center font-bold mt-52 mb-14'>Professional <br />Experience</h1>
-        </section>
-
-        <section className=' pb-14'>
-
-          <div className=' h-20 sm:mx-28 bg-gradient-to-r from-violet-800 to-violet-900 mb-3 rounded-lg'>
-
-          </div>
-
-          <div className=' h-20 sm:mx-28 bg-gradient-to-r from-violet-800 to-violet-900 mb-3 rounded-lg'>
-            
-          </div>
-
-          <div className=' h-20 sm:mx-28 bg-gradient-to-r from-violet-800 to-violet-900 mb-3 rounded-lg'>
-            
-          </div>
-
-        </section>
-
       </section>
+
+      <section className=' bg-gradient-to-tr from-violet-900 to-violet-800 text-white mt-44 p-6 pt-8'>
+        
+          <div className=' text-lg font-sans font-bold p-6 pb-1'>
+            <h4>Available for Select freelance opportunities</h4>
+          </div>
+
+          <div className=' p-6 pt-1'>
+            <p>Have an exciting project you need help with? send me an email or connect me via socials</p>
+          </div>
+
+          <div className=' sm:flex sm:justify-between text-center sm:text-left p-6 bg-purple-800 bg-opacity-50 drop-shadow-lg'>
+
+            <div className='pb-8'>
+              <a href="mailto:oladeleomoyemi@outlook.com" className=' backline animate-from-bottom text-lg sm:text-4xl font-bold sm:font-normal'>oladeleomoyemi@outlook.com</a>
+            </div>
+
+            <div className=''>
+              <ul className=' text-sm sm:text-xl'>
+                <li><a href="#" className='underline decoration-gray-400 hover:bg-gray-400 font-bold'>GitHub</a></li>
+                <li><a href="#" className='underline decoration-gray-400 hover:bg-gray-400 font-bold'>Twitter</a></li>
+                <li><a href="#" className='underline decoration-gray-400 hover:bg-gray-400 font-bold'>LinkedIn</a></li>
+              </ul>
+            </div>
+
+          </div>
+
+          <div className=' p-6 sm:flex sm:flex-row-reverse sm:justify-between'>
+            
+            <ul className=' px-0 flex gap-x-8 sm:bg-white sm:bg-opacity-10 sm:rounded-full text-sm sm:text-md py-1 sm:px-3 sm:pb-2 mt-2 sm:mt-0 dark:text-white items-center'>
+              <li><a href="#" className='underline sm:underline-offset-4 decoration-gray-400 hover:bg-gray-400'>Portfolio</a></li>
+              <li><a href="#" className='underline sm:underline-offset-4 decoration-gray-400 hover:bg-gray-400'>Resume</a></li>
+              <li><a href="#" className='underline sm:underline-offset-4 decoration-gray-400 hover:bg-gray-400'>About</a></li>
+            </ul>
+
+            <p className='text-sm italic sm:text-md'>Design, content & development by Yemi Oladele @ 2023.</p>
+
+          </div>
+
+        </section>
 
       </main>
     </>
