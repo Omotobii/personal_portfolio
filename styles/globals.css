@@ -58,6 +58,7 @@
   100% { color: indigo; }
 }
 
+/* styling for the backline effect on text */
 .backline {
   position: relative;
 }
@@ -78,7 +79,7 @@
   background: linear-gradient(transparent, transparent 50%, #0f4e9f 50%, #0f4e9f);
   background-size: 100% 200%;
   /*trasition effect for background*/
-  transition: background 1s;
+  transition: background 0.5s;
 }
 
 .animate-from-bottom:hover {

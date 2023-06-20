@@ -18,6 +18,8 @@ export default function Home() {
 
       <section className=' px-4 lg:px-40'>
 
+        {/* beginnig of major description */}
+
         <section className=''>
 
           <section className=' fixed inset-x-0 top-0'>
@@ -81,6 +83,9 @@ export default function Home() {
       
         </section>
 
+        {/* end of major description */}
+
+        {/* beginning of breif description */}
  
         <section className='sm:px-40'>
           <p className=' pt-32'><span className=' font-bold text-xl bg-gradient-to-r bg-clip-text text-transparent from-blue-700 to-gray-500'>Frontend Engineer </span><span className='text-white'>&#128170;</span><br /><br /></p>
@@ -89,7 +94,10 @@ export default function Home() {
 
           <p className=' dark:text-white font-bold'>This website is a showcase of my design portfolio, my work experience and some information about me.</p>
         </section>
+
+        {/* end of breif description */}
         
+        {/* beggining of featured project section */}
 
         <section id='works' className='mt-28 pt-24 lg:flex lg:justify-between'>
           <h1 className='text-6xl lg:text-8xl dark:text-white font-bold'>Featured<br></br>Work</h1>
@@ -98,7 +106,7 @@ export default function Home() {
 
         <section className=' pt-14'>
 
-            <div className=' lg:flex lg:justify-between my-11 h-auto border-2 border-grey-800 dark:border-2'>
+            <div className=' lg:flex lg:justify-between my-11 h-auto border-2 border-gray-400 dark:border-2'>
 
               <div className='h-auto pl-7'>
 
@@ -144,6 +152,10 @@ export default function Home() {
 
       </section>
 
+      {/* end of featured project section */}
+
+      {/* beginning of contact section */}
+
       <section className=' bg-gradient-to-tr from-violet-900 to-violet-800 text-white mt-44 p-6 pt-8'>
         
           <div className=' text-lg font-sans font-bold p-6 pb-1'>
@@ -183,6 +195,8 @@ export default function Home() {
           </div>
 
         </section>
+
+        {/* end of contact section */}
 
       </main>
     </>
