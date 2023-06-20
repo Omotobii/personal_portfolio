@@ -25,7 +25,7 @@ export default function Home() {
           <section className=' fixed inset-x-0 top-0'>
 
             <center>
-            <nav className=' mx-8 sm:mx-24 lg:mx-64 pb-1 pt-2 sm:py-3 backdrop-blur-2xl dark:backdrop-blur-2xl bg-slate-600 dark:bg-slate-900 bg-opacity-20 dark:bg-opacity-40 mt-10 m-auto p-4 border border-gray-900 dark:border-white dark:border-opacity-60 flex justify-between rounded-2xl'>
+            <nav className=' mx-8 sm:mx-24 lg:mx-64 pb-1 pt-2 sm:py-3 backdrop-blur-2xl dark:backdrop-blur-2xl bg-slate-600 dark:bg-slate-900 bg-opacity-20 dark:bg-opacity-40 mt-10 m-auto p-4 border border-gray-900 dark:border-white dark:border-opacity-60 flex justify-between rounded-lg'>
 
               <div className=' block sm:flex sm:justify-between sm:gap-24'>
                 <div className=' flex gap-4'>
@@ -106,7 +106,7 @@ export default function Home() {
 
         <section className=' pt-14'>
 
-            <div className=' lg:flex lg:justify-between my-11 h-auto border-2 border-gray-400 dark:border-2'>
+            <div className=' lg:flex lg:justify-between my-11 h-auto rounded-sm border-2 border-gray-400 dark:border-2'>
 
               <div className='h-auto pl-7'>
 
@@ -166,7 +166,7 @@ export default function Home() {
             <p>Have an exciting project you need help with? send me an email or connect me via socials</p>
           </div>
 
-          <div className=' sm:flex sm:justify-between text-center sm:text-left p-6 bg-purple-800 bg-opacity-50 drop-shadow-lg'>
+          <div className=' sm:flex sm:justify-between text-center sm:text-left p-6 rounded-sm bg-purple-800 bg-opacity-50 drop-shadow-lg'>
 
             <div className='pb-8'>
               <a href="mailto:oladeleomoyemi@outlook.com" className=' backline animate-from-bottom text-lg sm:text-4xl font-bold sm:font-normal'>oladeleomoyemi@outlook.com</a>
