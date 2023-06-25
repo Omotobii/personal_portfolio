@@ -25,10 +25,10 @@ export default function Home() {
           <section className=' fixed inset-x-0 top-0'>
 
             <center>
-            <nav className=' mx-8 sm:mx-24 lg:mx-64 pb-1 pt-2 sm:py-3 backdrop-blur-2xl dark:backdrop-blur-2xl bg-slate-600 dark:bg-slate-900 bg-opacity-20 dark:bg-opacity-40 mt-10 m-auto p-4 border border-gray-900 dark:border-white dark:border-opacity-60 flex justify-between rounded-lg'>
+            <nav className=' pb-1 pt-2 sm:py-3 backdrop-blur-2xl dark:backdrop-blur-2xl bg-slate-600 dark:bg-slate-900 bg-opacity-20 dark:bg-opacity-40 m-auto p-4 shadow-md border-b border-gray-400 dark:border-white dark:border-opacity-60 flex justify-between'>
 
-              <div className=' block sm:flex sm:justify-between sm:gap-24'>
-                <div className=' flex gap-4'>
+              <div className=' block md:flex md:justify-between w-1/2'>
+                <div className=' flex gap-4 '>
                   <img src="/portrait.jpg" alt="web dp" className='h-8 rounded-full' />
                   <div className=' text-sm text-left font-bold tracking-widest leading-tight dark:text-white font-sans animate-pulse'>
                     <p>Yemi</p>
@@ -36,13 +36,14 @@ export default function Home() {
                   </div> 
                 </div>
 
-                <ul className=' flex gap-x-8 sm:bg-white sm:bg-opacity-40 sm:rounded-full text-xs py-1 px-1 sm:px-3 mt-2 sm:mt-0 dark:text-white items-center'>
+                <ul className=' flex gap-x-8 md:bg-white md:bg-opacity-40 md:rounded-full text-xs py-1 px-1 md:px-3 mt-2 md:mt-0 dark:text-white items-center'>
 
                   <li><a href="#" className='underline sm:underline-offset-4 decoration-gray-400 hover:bg-gray-400'>Portfolio</a></li>
                   <li><a href="#" className='underline sm:underline-offset-4 decoration-gray-400 hover:bg-gray-400'>Resume</a></li>
                   <li><a href="#" className='underline sm:underline-offset-4 decoration-gray-400 hover:bg-gray-400'>About</a></li>
               
                 </ul>
+                
               </div>
               <ul>
 
