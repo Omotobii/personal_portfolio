@@ -14,7 +14,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className=' bg-white dark:bg-gray-900 scroll-m-1 scroll-smooth'>
+      <main className=' bg-white dark:bg-neutral-900 scroll-m-1 scroll-smooth'>
 
       <section className=' px-4 lg:px-40'>
 
@@ -157,17 +157,17 @@ export default function Home() {
 
       {/* beginning of contact section */}
 
-      <section className=' bg-gradient-to-tr from-violet-900 to-violet-800 text-white mt-44 p pt-8'>
+      <section className=' bg-yellow-500 mt-44 sm:px-11 pt-8'>
         
-          <div className=' text-lg font-sans font-bold p-6 pb-1'>
+          <div className=' text-lg font-sans font-bold py-6 pb-1'>
             <h4>Available for Select freelance opportunities</h4>
           </div>
 
-          <div className=' p-6 pt-1'>
+          <div className=' py-6 pt-1'>
             <p>Have an exciting project you need help with? send me an email or connect me via socials</p>
           </div>
 
-          <div className=' sm:flex sm:justify-between text-center sm:text-left p-6 rounded-sm bg-purple-800 bg-opacity-50 drop-shadow-lg'>
+          <div className=' sm:flex sm:justify-between text-center sm:text-left p-6 rounded-sm bg-black bg-opacity-10 drop-shadow-lg'>
 
             <div className=' pb-8'>
 
@@ -180,7 +180,7 @@ export default function Home() {
               <a href="mailto:oladeleomoyemi@outlook.com" className=' ml-3 backline animate-from-bottom text-xs sm:text-lg sm:font-thin'>Copy email to clipboard</a>
             </div>
 
-            <div className=''>
+            <div className=' border-l-2 border-neutral-500 pl-3 pt-1'>
               <ul className=' text-sm sm:text-xl'>
                 <li><a href="#" className='underline decoration-gray-400 hover:bg-gray-400 font-bold'>GitHub</a></li>
                 <li><a href="#" className='underline decoration-gray-400 hover:bg-gray-400 font-bold'>Twitter</a></li>
@@ -190,9 +190,9 @@ export default function Home() {
 
           </div>
 
-          <div className=' p-6 sm:flex sm:flex-row-reverse sm:justify-between'>
+          <div className=' py-6 sm:flex sm:flex-row-reverse sm:justify-between'>
             
-            <ul className=' px-0 flex gap-x-8 sm:bg-white sm:bg-opacity-10 sm:rounded-full text-sm sm:text-md py-1 sm:px-3 sm:pb-2 mt-2 sm:mt-0 dark:text-white items-center'>
+            <ul className=' px-0 flex gap-x-8 sm:bg-white sm:bg-opacity-10 sm:rounded-full text-sm sm:text-md py-1 sm:px-3 sm:pb-2 mt-2 sm:mt-0 sm:dark:bg-black sm:dark:bg-opacity-80 dark:text-white items-center'>
               <li><a href="#" className='underline sm:underline-offset-4 decoration-gray-400 hover:bg-gray-400'>Portfolio</a></li>
               <li><a href="#" className='underline sm:underline-offset-4 decoration-gray-400 hover:bg-gray-400'>Resume</a></li>
               <li><a href="#" className='underline sm:underline-offset-4 decoration-gray-400 hover:bg-gray-400'>About</a></li>
