@@ -42,11 +42,11 @@ export default function Home() {
               
               <ul className='flex flex-row-reverse justify-between sm:gap-44'>
 
-                <li className=' mt-6 sm:mt-2 cursor-pointer pr-2'>
+                <li className=' mt-3 sm:mt-2 cursor-pointer pr-2'>
                   <TbSunMoon className='text-sm sm:text-lg dark:text-white transition ease-in-out delay-150 hover:animate-pulse hover:-translate-y-0 hover:scale-110'/>
                 </li>
 
-                <ul className=' flex gap-x-1 sm:gap-x-8 sm:bg-neutral-900 sm:rounded-full text-sm py-1 pr-1 md:px-3 mt-2 md:mt-0 dark:text-black sm:dark:bg-white items-center'>
+                <ul className=' flex gap-x-1 sm:gap-x-8 sm:bg-neutral-900 sm:rounded-full text-sm py-1 pr-1 sm:px-3 dark:text-black sm:dark:bg-white items-center'>
 
                   <li><a href="#" className=' text-black sm:text-white sm:dark:text-black px-2 underline sm:underline-offset-2 decoration-neutral-500 dark:decoration-neutral-500 hover:bg-neutral-500 dark:hover:bg-neutral-500 hover:text-white dark:hover:text-black  hover:px-2 hover:rounded-full'>Portfolio</a></li>
                   <li><a href="#" className=' text-black sm:text-white sm:dark:text-black px-2 underline sm:underline-offset-2 decoration-neutral-500 dark:decoration-neutral-500 hover:bg-neutral-500 dark:hover:bg-neutral-500 hover:text-white dark:hover:text-black  hover:px-2 hover:rounded-full'>Resume</a></li>
@@ -167,15 +167,15 @@ export default function Home() {
 
           <div className=' px-3 sm:p-8 sm:flex sm:justify-between sm:text-left bg-black bg-opacity-10'>
 
-            <div className=' pb-8'>
+            <div className=' pt-11 pb-8'>
 
-              <h1 className=' text-2xl break-words sm:text-4xl font-bold mb-2'>
-                oladeleomoyemi@outlook.com
+              <h1 className=' text-3xl break-words sm:text-4xl font-bold mb-4'>
+                yemi.oladele@outlook.com
               </h1>
 
-              <a href="mailto:oladeleomoyemi@outlook.com" className=' backline animate-from-bottom sm:text-lg sm:font-thin'>Open mail client</a>
+              <a href="mailto:yemi.oladele@outlook.com" className=' backline animate-from-bottom sm:text-lg sm:font-thin'>Open mail client</a>
 
-              <a href="mailto:oladeleomoyemi@outlook.com" className=' ml-3 backline animate-from-bottom sm:text-lg sm:font-thin'>Copy email to clipboard</a>
+              <a href="mailto:@outlook.com" className=' ml-3 backline animate-from-bottom sm:text-lg sm:font-thin'>Copy email to clipboard</a>
             </div>
 
             <div className=' pt-1'>
