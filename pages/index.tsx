@@ -30,8 +30,8 @@ export default function Home() {
               <div className=' block md:flex md:justify-between w-1/2'>
                 <div className=' pl-2 flex gap-4 items-center '>
                   <img src="/dp.jpg" alt="web dp" className='h-8 rounded-full' />
-                  <div className=' text-sm py-2 text-left font-bold tracking-widest leading-tight dark:text-white font-sans animate-pulse'>
-                    <p>Yemi Oladele</p>
+                  <div className=' text-lg py-2 sm:py-1 text-left font-bold font-mono leading-tight dark:text-white'>
+                    <p>YEMI-Oladele</p>
                     
                   </div> 
                 </div>
@@ -46,11 +46,11 @@ export default function Home() {
                   <TbSunMoon className='text-sm sm:text-lg dark:text-white transition ease-in-out delay-150 hover:animate-pulse hover:-translate-y-0 hover:scale-110'/>
                 </li>
 
-                <ul className=' flex gap-x-3 sm:gap-x-8 sm:bg-black sm:dark:bg-white sm:rounded-full text-sm py-1 pr-1 sm:px-3 items-center'>
+                <ul className=' flex gap-x-3 font-mono sm:gap-x-8 sm:bg-black sm:dark:bg-white sm:rounded-full text-sm py-1 pr-1 sm:px-3 items-center'>
 
-                  <li><a href="#" className=' backline-nav animate-from-bottom-nav dark:text-white'>Portfolio</a></li>
-                  <li><a href="#" className=' backline-nav animate-from-bottom-nav dark:text-white'>Resume</a></li>
-                  <li><a href="#" className=' backline-nav animate-from-bottom-nav dark:text-white'>About</a></li>
+                  <li><a href="#" className=' backline-nav animate-from-bottom-nav dark:text-white sm:text-white sm:dark:text-black'>Portfolio</a></li>
+                  <li><a href="#" className=' backline-nav animate-from-bottom-nav dark:text-white sm:text-white sm:dark:text-black'>Resume</a></li>
+                  <li><a href="#" className=' backline-nav animate-from-bottom-nav dark:text-white sm:text-white sm:dark:text-black'>About</a></li>
               
                 </ul>
 
@@ -62,7 +62,7 @@ export default function Home() {
 
           <section className='flex items-center p-1 pt-32 sm:pt-44 pb-11'>
             <div className=''>
-              <p className=' text-7xl sm:text-8xl lg:text-9xl dark:text-white font-bold'>I turn ideas into <br /> real life <span className=' bg-gradient-to-r bg-clip-text  text-transparent from-teal-500 via-teal-800 to-teal-500 animate-text'>products</span></p>
+              <p className=' font-mono tracking-tighter text-7xl sm:text-8xl lg:text-8xl dark:text-white font-bold'>I turn ideas <br />into <br />real life products</p>
 
               
 
@@ -87,11 +87,11 @@ export default function Home() {
         {/* beginning of breif description */}
  
         <section className='sm:px-40'>
-          <p className=' pt-32'><span className=' font-bold text-xl bg-gradient-to-r bg-clip-text text-transparent from-teal-500 to-purple-500'>Frontend Engineer </span><span className='text-white'>&#128170;</span><br /><br /></p>
+          <p className=' pt-32'><span className=' font-bold font-mono text-xl bg-gradient-to-r bg-clip-text text-transparent from-teal-500 to-purple-500'>Frontend Engineer </span><span className='text-white'>&#128170;</span><br /><br /></p>
 
-          <p className=' dark:text-white font-semibold'>Developing novel and meaningful solutions with a user first approach <br /><br /><br /></p>
+          <p className=' dark:text-white font-mono'>Developing novel and meaningful solutions with a user first approach <br /><br /><br /></p>
 
-          <p className=' dark:text-white font-semibold'>This website is a showcase of my design portfolio, my work experience and some information about me.</p>
+          <p className=' dark:text-white font-mono'>This website is a showcase of my design portfolio, my work experience and some information about me.</p>
         </section>
 
         {/* end of breif description */}
@@ -100,12 +100,12 @@ export default function Home() {
 
         <section id='works' className='mt-28 pt-24 lg:flex lg:justify-between'>
           <h1 className='text-6xl lg:text-8xl dark:text-white font-bold'>Featured<br></br>Work</h1>
-          <p className=' pt-6 lg:pt-32'><span className=' font-bold text-xl bg-gradient-to-r bg-clip-text text-transparent from-teal-600 to-pink-500'>every project is unique </span><span className='text-white'>👌</span></p>
+          <p className=' pt-6 lg:pt-32'><span className=' font-bold font-mono text-xl bg-gradient-to-r bg-clip-text text-transparent from-teal-600 to-pink-500'>every project is unique </span><span className='text-white'>👌</span></p>
         </section>
 
         <section className=' pt-14'>
 
-            <div className=' lg:flex lg:justify-between my-11 h-auto border-t-2 border-b-2 border-gray-400'>
+            <div className=' lg:flex lg:justify-between my-11 h-auto border-t border-b border-gray-400'>
 
               <div className='h-80 pl-7'>
 
@@ -155,9 +155,9 @@ export default function Home() {
 
       {/* beginning of contact section */}
 
-      <section className=' bg-black dark:bg-white dark:text-black text-white mt-44 pt-8'>
+      <section className=' font-mono bg-black dark:bg-white dark:text-black text-white mt-44 pt-8'>
         
-          <div className=' text-lg font-sans font-bold px-3 sm:px-8 py-6 pb-1'>
+          <div className=' text-lg font-bold px-3 sm:px-8 py-6 pb-1'>
             <h4>Available for Select freelance opportunities</h4>
           </div>
 
