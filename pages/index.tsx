@@ -14,7 +14,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className=' bg-white dark:bg-neutral-900 scroll-m-1 scroll-smooth'>
+      <main className=' bg-white dark:bg-black scroll-m-1 scroll-smooth'>
 
       <section className=' px-4 lg:px-40'>
 
@@ -46,11 +46,11 @@ export default function Home() {
                   <TbSunMoon className='text-sm sm:text-lg dark:text-white transition ease-in-out delay-150 hover:animate-pulse hover:-translate-y-0 hover:scale-110'/>
                 </li>
 
-                <ul className=' flex gap-x-1 sm:gap-x-8 sm:bg-neutral-900 sm:rounded-full text-sm py-1 pr-1 sm:px-3 sm:dark:bg-white items-center'>
+                <ul className=' flex gap-x-1 sm:gap-x-8 sm:bg-black sm:dark:bg-white sm:rounded-full text-sm py-1 pr-1 sm:px-3 items-center'>
 
-                  <li><a href="#" className=' dark:text-white sm:text-white sm:dark:text-black px-2 underline sm:underline-offset-2 decoration-neutral-500 dark:decoration-neutral-500 hover:bg-neutral-500 dark:hover:bg-neutral-500 hover:text-white dark:hover:text-black  hover:px-2 hover:rounded-full'>Portfolio</a></li>
-                  <li><a href="#" className=' dark:text-white sm:text-white sm:dark:text-black px-2 underline sm:underline-offset-2 decoration-neutral-500 dark:decoration-neutral-500 hover:bg-neutral-500 dark:hover:bg-neutral-500 hover:text-white dark:hover:text-black  hover:px-2 hover:rounded-full'>Resume</a></li>
-                  <li><a href="#" className=' dark:text-white sm:text-white sm:dark:text-black px-2 underline sm:underline-offset-2 decoration-neutral-500 dark:decoration-neutral-500 hover:bg-neutral-500 dark:hover:bg-neutral-500 hover:text-white dark:hover:text-black  hover:px-2 hover:rounded-full'>About</a></li>
+                  <li><a href="#" className=' backline-nav animate-from-bottom-nav text-white dark:text-black'>Portfolio</a></li>
+                  <li><a href="#" className=' backline-nav animate-from-bottom-nav text-white dark:text-black'>Resume</a></li>
+                  <li><a href="#" className=' backline-nav animate-from-bottom-nav text-white dark:text-black'>About</a></li>
               
                 </ul>
 
@@ -62,7 +62,7 @@ export default function Home() {
 
           <section className='flex items-center p-1 pt-32 sm:pt-44 pb-11'>
             <div className=''>
-              <p className=' text-7xl sm:text-8xl lg:text-9xl dark:text-white font-bold'>I turn ideas into <br /> real life <span className=' bg-gradient-to-r bg-clip-text  text-transparent from-teal-500 via-purple-500 to-indigo-500 animate-text'>products</span></p>
+              <p className=' text-7xl sm:text-8xl lg:text-9xl dark:text-white font-bold'>I turn ideas into <br /> real life <span className=' bg-gradient-to-r bg-clip-text  text-transparent from-teal-500 via-teal-800 to-teal-500 animate-text'>products</span></p>
 
               
 
@@ -73,9 +73,9 @@ export default function Home() {
           <div className=' text-right'>
 
             <div className=' mt-2 lg:mt-4 mb-4 text-md lg:text-md dark:text-white text-right'>
-              <a href="" className='hover:underline decoration-yellow-400 underline-offset-2'>&#128163;GH  </a>
-              <a href="" className='hover:underline decoration-yellow-400 underline-offset-2'>&#128038;TW  </a>
-              <a href="" className='hover:underline decoration-yellow-400 underline-offset-2'>&#128188;LD</a>
+              <a href="" className='hover:underline decoration-teal-400 underline-offset-2'>&#128163;GH  </a>
+              <a href="" className='hover:underline decoration-teal-400 underline-offset-2'>&#128038;TW  </a>
+              <a href="" className='hover:underline decoration-teal-400 underline-offset-2'>&#128188;LD</a>
             </div>
 
           </div>
@@ -155,7 +155,7 @@ export default function Home() {
 
       {/* beginning of contact section */}
 
-      <section className=' YELLOW mt-44 pt-8'>
+      <section className=' bg-black dark:bg-white dark:text-black text-white mt-44 pt-8'>
         
           <div className=' text-lg font-sans font-bold px-3 sm:px-8 py-6 pb-1'>
             <h4>Available for Select freelance opportunities</h4>
@@ -165,7 +165,7 @@ export default function Home() {
             <p>Have an exciting project you need help with? send me an email or connect me via socials</p>
           </div>
 
-          <div className=' px-3 sm:p-8 sm:flex sm:justify-between sm:text-left bg-black bg-opacity-10'>
+          <div className=' px-3 sm:p-8 sm:flex sm:justify-between sm:text-left bg-black dark:bg-white border-t border-b dark:border-t-black dark:border-b-black'>
 
             <div className=' pt-11 pb-8'>
 
@@ -190,7 +190,7 @@ export default function Home() {
 
           <div className=' px-3 sm:px-8 py-6 sm:flex sm:flex-row-reverse sm:justify-between'>
             
-            <ul className=' px-0 flex gap-x-8 sm:bg-white sm:bg-opacity-10 sm:rounded-full sm:text-lg py-1 sm:px-3 mt-2 sm:mt-0 sm:dark:bg-black sm:dark:bg-opacity-80 sm:dark:text-white items-center'>
+            <ul className=' px-0 flex gap-x-8 sm:bg-white sm:bg-opacity-10 sm:rounded-full sm:text-lg py-1 sm:px-3 mt-2 sm:mt-0 sm:dark:bg-neutral-200 sm:dark:text-black items-center'>
               <li><a href="#" className=' font-thin backline animate-from-bottom'>Portfolio</a></li>
               <li><a href="#" className=' font-thin backline animate-from-bottom'>Resume</a></li>
               <li><a href="#" className=' font-thin backline animate-from-bottom'>About</a></li>

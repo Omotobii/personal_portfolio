@@ -67,25 +67,52 @@
   content:' ';
   position: absolute;
   width:100%;
-  height:2%;
+  height:3%;
   z-index: 1;
 }
 
 .backline:after {bottom: 0px; left: 0px; background: rgb(115 115 115);  }
 .backline:before {right: 0px; background: transparent;}
 
+/* link animation in contacts section */
 .animate-from-bottom {
   cursor: pointer;
   background: linear-gradient(transparent, transparent 50%, rgb(115 115 115) 50%, rgb(115 115 115));
   background-size: 100% 200%;
   /*trasition effect for background*/
-  transition: background 0.5s;
+  transition: background 0.2s;
 }
 
 .animate-from-bottom:hover {
   background-position: 100% 100%;
 }
 
-.YELLOW {
-  background-color: #FFFF00;
+/* styling for the backline effect on navigation */
+.backline-nav {
+  position: relative;
+}
+
+.backline-nav:after, .backline:before {
+  content:' ';
+  position: absolute;
+  width:100%;
+  height:5%;
+  z-index: 1;
+}
+
+.backline-nav:after {bottom: 0px; left: 0px; background: rgb(143, 143, 143);  }
+.backline-nav:before {right: 0px; background: transparent;}
+.backline-nav:hover:after {background: rgb(115 115 115); transition-duration: 0.3s;}
+
+/* link animation for navigation */
+.animate-from-bottom-nav {
+  cursor: pointer;
+  background: linear-gradient(transparent, transparent 50%, rgb(115 115 115) 50%, rgb(115 115 115));
+  background-size: 100% 200%;
+  /*trasition effect for background*/
+  transition: background 0.2s;
+}
+
+.animate-from-bottom-nav:hover {
+  background-position: 100% 100%;
 }
