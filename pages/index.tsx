@@ -14,7 +14,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className=' bg-white dark:bg-black scroll-m-1 scroll-smooth'>
+      <main className=' bg-white dark:bg-gray-900 scroll-m-1 scroll-smooth'>
 
       <section className=' px-4 lg:px-40'>
 
@@ -25,18 +25,18 @@ export default function Home() {
           <section className=' fixed inset-x-0 top-0'>
 
             <center>
-            <nav className=' pb-1 pt-2 sm:py-3 backdrop-blur-2xl dark:backdrop-blur-2xl bg-slate-600 dark:bg-slate-900 bg-opacity-20 dark:bg-opacity-40 m-auto p-4 shadow-md border-b border-gray-400 dark:border-white dark:border-opacity-60 flex justify-between'>
+            <nav className=' pb-1 pt-2 sm:py-3 backdrop-blur-2xl dark:backdrop-blur-2xl bg-slate-600 dark:bg-white dark:bg-opacity-30 bg-opacity-20 m-auto p-4 shadow-md border-b border-gray-400 dark:border-white dark:border-opacity-60 flex justify-between'>
 
               <div className=' block md:flex md:justify-between w-1/2'>
-                <div className=' flex gap-4 '>
+                <div className=' flex gap-4 items-center '>
                   <img src="/portrait.jpg" alt="web dp" className='h-8 rounded-full' />
-                  <div className=' text-sm text-left font-bold tracking-widest leading-tight dark:text-white font-sans animate-pulse'>
-                    <p>Yemi</p>
-                    <p>Oladele</p>
+                  <div className=' text-sm py-2 text-left font-bold tracking-widest leading-tight dark:text-white font-sans animate-pulse'>
+                    <p>Yemi Oladele</p>
+                    
                   </div> 
                 </div>
 
-                <ul className=' flex gap-x-8 md:bg-white md:bg-opacity-40 md:rounded-full text-xs py-1 px-1 md:px-3 mt-2 md:mt-0 dark:text-white items-center'>
+                <ul className=' flex gap-x-8 md:bg-white md:bg-opacity-40 md:rounded-full text-sm py-1 pr-1 md:px-3 mt-2 md:mt-0 dark:text-white md:dark:bg-gray-800 items-center'>
 
                   <li><a href="#" className='underline sm:underline-offset-4 decoration-gray-400 hover:bg-gray-400'>Portfolio</a></li>
                   <li><a href="#" className='underline sm:underline-offset-4 decoration-gray-400 hover:bg-gray-400'>Resume</a></li>
@@ -70,7 +70,7 @@ export default function Home() {
           <div className=' flex justify-between'>
 
             <div className='flex mb-4 ml-3 text-lg lg:text-xl dark:text-white'>
-            <a href='#works' className='hover:-rotate-12 hover:text-purple-700 hover:delay-200 hover:duration-1000'><span className='underline underline-offset-4'>Featured W</span>orks</a>
+            <a href='#works' className='rotate-3 hover:-rotate-6 hover:text-purple-700 hover:delay-200 hover:duration-1000'><span className='underline underline-offset-4'>Featured W</span>orks</a>
             
             </div>
 
@@ -89,11 +89,11 @@ export default function Home() {
         {/* beginning of breif description */}
  
         <section className='sm:px-40'>
-          <p className=' pt-32'><span className=' font-bold text-xl bg-gradient-to-r bg-clip-text text-transparent from-blue-700 to-gray-500'>Frontend Engineer </span><span className='text-white'>&#128170;</span><br /><br /></p>
+          <p className=' pt-32'><span className=' font-bold text-xl bg-gradient-to-r bg-clip-text text-transparent from-teal-500 to-purple-500'>Frontend Engineer </span><span className='text-white'>&#128170;</span><br /><br /></p>
 
-          <p className=' dark:text-white font-bold'>Developing novel and meaningful solutions with a user first approach <br /><br /><br /></p>
+          <p className=' dark:text-white font-semibold'>Developing novel and meaningful solutions with a user first approach <br /><br /><br /></p>
 
-          <p className=' dark:text-white font-bold'>This website is a showcase of my design portfolio, my work experience and some information about me.</p>
+          <p className=' dark:text-white font-semibold'>This website is a showcase of my design portfolio, my work experience and some information about me.</p>
         </section>
 
         {/* end of breif description */}
@@ -102,14 +102,14 @@ export default function Home() {
 
         <section id='works' className='mt-28 pt-24 lg:flex lg:justify-between'>
           <h1 className='text-6xl lg:text-8xl dark:text-white font-bold'>Featured<br></br>Work</h1>
-          <p className=' pt-32'><span className=' font-bold text-xl bg-gradient-to-r bg-clip-text text-transparent from-teal-600 to-pink-500'>every project is unique </span><span className='text-white'>👌</span></p>
+          <p className=' pt-6 lg:pt-32'><span className=' font-bold text-xl bg-gradient-to-r bg-clip-text text-transparent from-teal-600 to-pink-500'>every project is unique </span><span className='text-white'>👌</span></p>
         </section>
 
         <section className=' pt-14'>
 
-            <div className=' lg:flex lg:justify-between my-11 h-auto rounded-sm border-2 border-gray-400 dark:border-2'>
+            <div className=' lg:flex lg:justify-between my-11 h-auto border-t-2 border-b-2 border-gray-400'>
 
-              <div className='h-auto pl-7'>
+              <div className='h-80 pl-7'>
 
                 <div className="  mt-8">
                   <h1 className='text-3xl dark:text-white font-bold'>Fountain Holdings Limited</h1>
@@ -117,7 +117,7 @@ export default function Home() {
                 </div>
 
                 <div className=' mt-8'>
-                  <p className=' '>
+                  <p className=' dark:text-white'>
                     2020
                   </p>
                 </div>
@@ -144,7 +144,7 @@ export default function Home() {
               </div> 
 
               <div className=' m-2'>
-                <img src="/FHL.jpg" alt="project one" className='' />
+                <img src="/FHL.jpg" alt="project one" className=' h-80' />
               </div>
 
             </div>          
@@ -157,7 +157,7 @@ export default function Home() {
 
       {/* beginning of contact section */}
 
-      <section className=' bg-gradient-to-tr from-violet-900 to-violet-800 text-white mt-44 p-6 pt-8'>
+      <section className=' bg-gradient-to-tr from-violet-900 to-violet-800 text-white mt-44 p pt-8'>
         
           <div className=' text-lg font-sans font-bold p-6 pb-1'>
             <h4>Available for Select freelance opportunities</h4>
@@ -169,8 +169,15 @@ export default function Home() {
 
           <div className=' sm:flex sm:justify-between text-center sm:text-left p-6 rounded-sm bg-purple-800 bg-opacity-50 drop-shadow-lg'>
 
-            <div className='pb-8'>
-              <a href="mailto:oladeleomoyemi@outlook.com" className=' backline animate-from-bottom text-lg sm:text-4xl font-bold sm:font-normal'>oladeleomoyemi@outlook.com</a>
+            <div className=' pb-8'>
+
+              <h1 className=' sm:text-4xl font-bold mb-2'>
+                oladeleomoyemi@outlook.com
+              </h1>
+
+              <a href="mailto:oladeleomoyemi@outlook.com" className=' backline animate-from-bottom text-xs sm:text-lg sm:font-thin'>Open mail client</a>
+
+              <a href="mailto:oladeleomoyemi@outlook.com" className=' ml-3 backline animate-from-bottom text-xs sm:text-lg sm:font-thin'>Copy email to clipboard</a>
             </div>
 
             <div className=''>
