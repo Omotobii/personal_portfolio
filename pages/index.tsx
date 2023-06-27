@@ -25,7 +25,7 @@ export default function Home() {
           <section className=' fixed inset-x-0 top-0'>
 
             <center>
-            <nav className=' pb-1 pt-2 sm:py-3 backdrop-blur-sm dark:backdrop-blur-sm bg-yellow-100 dark:bg-yellow-100 bg-opacity-30 dark:bg-opacity-30 m-auto p-4 shadow-md border-b border-neutral-500 dark:border-yellow-100 dark:border-opacity-50 flex justify-between'>
+            <nav className=' pb-1 pt-2  sm:p-4 sm:py-3 backdrop-blur-md m-auto flex justify-between'>
 
               <div className=' block md:flex md:justify-between w-1/2'>
                 <div className=' pl-2 flex gap-4 items-center '>
@@ -40,17 +40,17 @@ export default function Home() {
                 
               </div>
               
-              <ul className='sm:flex sm:flex-row-reverse sm:justify-between sm:gap-44'>
+              <ul className='flex flex-row-reverse justify-between sm:gap-44'>
 
-                <li className=' mt-2 cursor-pointer pr-2'>
-                  <TbSunMoon className=' text-lg dark:text-white transition ease-in-out delay-150 hover:animate-pulse hover:-translate-y-0 hover:scale-110'/>
+                <li className=' mt-6 sm:mt-2 cursor-pointer pr-2'>
+                  <TbSunMoon className='text-sm sm:text-lg dark:text-white transition ease-in-out delay-150 hover:animate-pulse hover:-translate-y-0 hover:scale-110'/>
                 </li>
 
-                <ul className=' flex gap-x-8 sm:bg-neutral-900 sm:rounded-full text-sm py-1 pr-1 md:px-3 mt-2 md:mt-0 dark:text-white sm:dark:bg-neutral-900 items-center'>
+                <ul className=' flex gap-x-1 sm:gap-x-8 sm:bg-neutral-900 sm:rounded-full text-sm py-1 pr-1 md:px-3 mt-2 md:mt-0 dark:text-black sm:dark:bg-white items-center'>
 
-                  <li><a href="#" className=' text-white dark:text-yellow-100 px-2 underline sm:underline-offset-2 decoration-neutral-500 dark:decoration-yellow-50 hover:bg-neutral-500 dark:hover:bg-yellow-50 hover:text-white dark:hover:text-black  hover:px-2 hover:rounded-full'>Portfolio</a></li>
-                  <li><a href="#" className=' text-white dark:text-yellow-100 px-2 underline sm:underline-offset-2 decoration-neutral-500 dark:decoration-yellow-50 hover:bg-neutral-500 dark:hover:bg-yellow-50 hover:text-white dark:hover:text-black  hover:px-2 hover:rounded-full'>Resume</a></li>
-                  <li><a href="#" className=' text-white dark:text-yellow-100 px-2 underline sm:underline-offset-2 decoration-neutral-500 dark:decoration-yellow-50 hover:bg-neutral-500 dark:hover:bg-yellow-50 hover:text-white dark:hover:text-black  hover:px-2 hover:rounded-full'>About</a></li>
+                  <li><a href="#" className=' text-black sm:text-white sm:dark:text-black px-2 underline sm:underline-offset-2 decoration-neutral-500 dark:decoration-neutral-500 hover:bg-neutral-500 dark:hover:bg-neutral-500 hover:text-white dark:hover:text-black  hover:px-2 hover:rounded-full'>Portfolio</a></li>
+                  <li><a href="#" className=' text-black sm:text-white sm:dark:text-black px-2 underline sm:underline-offset-2 decoration-neutral-500 dark:decoration-neutral-500 hover:bg-neutral-500 dark:hover:bg-neutral-500 hover:text-white dark:hover:text-black  hover:px-2 hover:rounded-full'>Resume</a></li>
+                  <li><a href="#" className='text-black sm:text-white sm:dark:text-black px-2 underline sm:underline-offset-2 decoration-neutral-500 dark:decoration-neutral-500 hover:bg-neutral-500 dark:hover:bg-neutral-500 hover:text-white dark:hover:text-black  hover:px-2 hover:rounded-full'>About</a></li>
               
                 </ul>
 
@@ -155,30 +155,30 @@ export default function Home() {
 
       {/* beginning of contact section */}
 
-      <section className=' bg-yellow-100 mt-44 sm:px-11 pt-8'>
+      <section className=' bg-yellow-100 mt-44 pt-8'>
         
-          <div className=' text-lg font-sans font-bold py-6 pb-1'>
+          <div className=' text-lg font-sans font-bold px-3 sm:px-8 py-6 pb-1'>
             <h4>Available for Select freelance opportunities</h4>
           </div>
 
-          <div className=' py-6 pt-1'>
+          <div className=' py-6 pt-1 px-3 sm:px-8'>
             <p>Have an exciting project you need help with? send me an email or connect me via socials</p>
           </div>
 
-          <div className=' sm:flex sm:justify-between text-center sm:text-left p-6 rounded-sm bg-black bg-opacity-10 drop-shadow-lg'>
+          <div className=' px-3 sm:p-8 sm:flex sm:justify-between sm:text-left bg-black bg-opacity-10'>
 
             <div className=' pb-8'>
 
-              <h1 className=' sm:text-4xl font-bold mb-2'>
+              <h1 className=' text-2xl break-words sm:text-4xl font-bold mb-2'>
                 oladeleomoyemi@outlook.com
               </h1>
 
-              <a href="mailto:oladeleomoyemi@outlook.com" className=' backline animate-from-bottom text-xs sm:text-lg sm:font-thin'>Open mail client</a>
+              <a href="mailto:oladeleomoyemi@outlook.com" className=' backline animate-from-bottom sm:text-lg sm:font-thin'>Open mail client</a>
 
-              <a href="mailto:oladeleomoyemi@outlook.com" className=' ml-3 backline animate-from-bottom text-xs sm:text-lg sm:font-thin'>Copy email to clipboard</a>
+              <a href="mailto:oladeleomoyemi@outlook.com" className=' ml-3 backline animate-from-bottom sm:text-lg sm:font-thin'>Copy email to clipboard</a>
             </div>
 
-            <div className=' border-l-2 border-gray-400 pl-3 pt-1'>
+            <div className=' pt-1'>
               <ul className=' text-sm sm:text-xl'>
                 <li><a href="#" className='underline decoration-gray-400 hover:bg-gray-400 font-bold'>GitHub</a></li>
                 <li><a href="#" className='underline decoration-gray-400 hover:bg-gray-400 font-bold'>Twitter</a></li>
@@ -188,9 +188,9 @@ export default function Home() {
 
           </div>
 
-          <div className=' py-6 sm:flex sm:flex-row-reverse sm:justify-between'>
+          <div className=' px-3 sm:px-8 py-6 sm:flex sm:flex-row-reverse sm:justify-between'>
             
-            <ul className=' px-0 flex gap-x-8 sm:bg-white sm:bg-opacity-10 sm:rounded-full text-sm sm:text-md py-1 sm:px-3 mt-2 sm:mt-0 sm:dark:bg-black sm:dark:bg-opacity-80 dark:text-white items-center'>
+            <ul className=' px-0 flex gap-x-8 sm:bg-white sm:bg-opacity-10 sm:rounded-full sm:text-lg py-1 sm:px-3 mt-2 sm:mt-0 sm:dark:bg-black sm:dark:bg-opacity-80 dark:text-white items-center'>
               <li><a href="#" className=' font-thin backline animate-from-bottom'>Portfolio</a></li>
               <li><a href="#" className=' font-thin backline animate-from-bottom'>Resume</a></li>
               <li><a href="#" className=' font-thin backline animate-from-bottom'>About</a></li>
