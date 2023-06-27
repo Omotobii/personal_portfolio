@@ -29,7 +29,7 @@ export default function Home() {
 
               <div className=' block md:flex md:justify-between w-1/2'>
                 <div className=' pl-2 flex gap-4 items-center '>
-                  <img src="/portrait.jpg" alt="web dp" className='h-8 rounded-full' />
+                  <img src="/dp.jpg" alt="web dp" className='h-8 rounded-full' />
                   <div className=' text-sm py-2 text-left font-bold tracking-widest leading-tight dark:text-white font-sans animate-pulse'>
                     <p>Yemi Oladele</p>
                     
@@ -46,11 +46,11 @@ export default function Home() {
                   <TbSunMoon className='text-sm sm:text-lg dark:text-white transition ease-in-out delay-150 hover:animate-pulse hover:-translate-y-0 hover:scale-110'/>
                 </li>
 
-                <ul className=' flex gap-x-1 sm:gap-x-8 sm:bg-black sm:dark:bg-white sm:rounded-full text-sm py-1 pr-1 sm:px-3 items-center'>
+                <ul className=' flex gap-x-3 sm:gap-x-8 sm:bg-black sm:dark:bg-white sm:rounded-full text-sm py-1 pr-1 sm:px-3 items-center'>
 
-                  <li><a href="#" className=' backline-nav animate-from-bottom-nav text-white dark:text-black'>Portfolio</a></li>
-                  <li><a href="#" className=' backline-nav animate-from-bottom-nav text-white dark:text-black'>Resume</a></li>
-                  <li><a href="#" className=' backline-nav animate-from-bottom-nav text-white dark:text-black'>About</a></li>
+                  <li><a href="#" className=' backline-nav animate-from-bottom-nav dark:text-white'>Portfolio</a></li>
+                  <li><a href="#" className=' backline-nav animate-from-bottom-nav dark:text-white'>Resume</a></li>
+                  <li><a href="#" className=' backline-nav animate-from-bottom-nav dark:text-white'>About</a></li>
               
                 </ul>
 
