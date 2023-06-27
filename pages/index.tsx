@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <main className=' bg-white dark:bg-black scroll-m-1 scroll-smooth'>
 
-      <section className=' px-4 lg:px-40'>
+      <section className=' px-4 lg:px-24'>
 
         {/* beginnig of major description */}
 
@@ -30,7 +30,7 @@ export default function Home() {
               <div className=' block md:flex md:justify-between w-1/2'>
                 <div className=' pl-2 flex gap-4 items-center '>
                   <img src="/dp.jpg" alt="web dp" className='h-8 rounded-full' />
-                  <div className=' text-lg py-2 sm:py-1 text-left font-bold font-mono leading-tight dark:text-white'>
+                  <div className=' sm:text-lg py-2 sm:py-1 text-left font-bold font-mono leading-tight dark:text-white'>
                     <p>YEMI-Oladele</p>
                     
                   </div> 
@@ -60,9 +60,9 @@ export default function Home() {
             
           </section>
 
-          <section className='flex items-center p-1 pt-32 sm:pt-44 pb-11'>
+          <section className='flex items-center pt-32 sm:pt-44 pb-11'>
             <div className=''>
-              <p className=' font-mono tracking-tighter text-7xl sm:text-8xl lg:text-8xl dark:text-white font-bold'>I turn ideas <br />into <br />real life products</p>
+              <p className=' font-mono tracking-tighter text-7xl sm:text-8xl lg:text-9xl dark:text-white font-bold'>I turn ideas <br />into <br />real life products</p>
 
               
 
@@ -72,7 +72,7 @@ export default function Home() {
 
           <div className=' text-right'>
 
-            <div className=' mt-2 lg:mt-4 mb-4 text-md lg:text-md dark:text-white text-right'>
+            <div className=' mt-2 lg:mt-4 mb-4 text-lg lg:text-xl dark:text-white text-right'>
               <a href="" className='hover:underline decoration-teal-400 underline-offset-2'>&#128163;GH  </a>
               <a href="" className='hover:underline decoration-teal-400 underline-offset-2'>&#128038;TW  </a>
               <a href="" className='hover:underline decoration-teal-400 underline-offset-2'>&#128188;LD</a>
@@ -87,7 +87,7 @@ export default function Home() {
         {/* beginning of breif description */}
  
         <section className='sm:px-40'>
-          <p className=' pt-32'><span className=' font-bold font-mono text-xl bg-gradient-to-r bg-clip-text text-transparent from-teal-500 to-purple-500'>Frontend Engineer </span><span className='text-white'>&#128170;</span><br /><br /></p>
+          <p className=' pt-32'><span className=' font-extrabold font-mono text-xl bg-gradient-to-r bg-clip-text text-transparent from-teal-500 to-purple-500'>Frontend Engineer </span><span className='text-white'>&#128170;</span><br /><br /></p>
 
           <p className=' dark:text-white font-mono'>Developing novel and meaningful solutions with a user first approach <br /><br /><br /></p>
 
@@ -98,24 +98,24 @@ export default function Home() {
         
         {/* beggining of featured project section */}
 
-        <section id='works' className='mt-28 pt-24 lg:flex lg:justify-between'>
-          <h1 className='text-6xl lg:text-8xl dark:text-white font-bold'>Featured<br></br>Work</h1>
-          <p className=' pt-6 lg:pt-32'><span className=' font-bold font-mono text-xl bg-gradient-to-r bg-clip-text text-transparent from-teal-600 to-pink-500'>every project is unique </span><span className='text-white'>👌</span></p>
+        <section id='works' className=' font-mono mt-28 pt-24 lg:flex lg:justify-between'>
+          <h1 className='text-xl lg:text-xl dark:text-white font-extrabold'>Featured<br></br>Work</h1>
+          <p className=' pt-4'><span className=' tracking-tight bg-gradient-to-r bg-clip-text text-transparent from-teal-600 to-pink-500'>every project is unique </span><span className='text-white'>👌</span></p>
         </section>
 
-        <section className=' pt-14'>
+        <section className=' pt-8'>
 
-            <div className=' lg:flex lg:justify-between my-11 h-auto border-t border-b border-gray-400'>
+            <div className=' sm:flex sm:justify-between my-11 h-auto border-t border-b border-gray-400'>
 
-              <div className='h-80 pl-7'>
+              <div className='h-auto px-1 sm:w-1/2'>
 
                 <div className="  mt-8">
-                  <h1 className='text-3xl dark:text-white font-bold'>Fountain Holdings Limited</h1>
-                  <p className=' dark:text-white'>The investment arm of the Ekiti State Government</p>
+                  <h1 className=' font-mono text-3xl dark:text-white font-bold'>Fountain Holdings Limited</h1>
+                  <p className=' font-mono dark:text-white'>The investment arm of the Ekiti State Government</p>
                 </div>
 
                 <div className=' mt-8'>
-                  <p className=' dark:text-white'>
+                  <p className=' font-mono dark:text-white'>
                     2020
                   </p>
                 </div>
@@ -135,14 +135,14 @@ export default function Home() {
                 </div>
 
 
-                <div className=' pr-7 mb-3'>
-                  <a href='http://fholdingsltd.com/' className=' font-mono dark:text-white'>VISIT THE WEBSITE</a>
+                <div className=' pr-7 '>
+                  <a href='http://fholdingsltd.com/' className=' font-mono italic dark:text-white'>Visit the Website</a>
                 </div>
 
               </div> 
 
-              <div className=' m-2'>
-                <img src="/FHL.jpg" alt="project one" className=' h-80' />
+              <div className=' m-1 sm:w-1/2'>
+                <img src="/OIG.jpeg" alt="project one" className=' w-auto' />
               </div>
 
             </div>          
