@@ -25,10 +25,10 @@ export default function Home() {
           <section className=' fixed inset-x-0 top-0'>
 
             <center>
-            <nav className=' pb-1 pt-2 sm:py-3 backdrop-blur-2xl dark:backdrop-blur-2xl bg-slate-600 dark:bg-white dark:bg-opacity-30 bg-opacity-20 m-auto p-4 shadow-md border-b border-gray-400 dark:border-white dark:border-opacity-60 flex justify-between'>
+            <nav className=' pb-1 pt-2 sm:py-3 backdrop-blur-sm dark:backdrop-blur-sm bg-yellow-100 dark:bg-yellow-100 bg-opacity-30 dark:bg-opacity-30 m-auto p-4 shadow-md border-b border-neutral-500 dark:border-yellow-100 dark:border-opacity-50 flex justify-between'>
 
               <div className=' block md:flex md:justify-between w-1/2'>
-                <div className=' flex gap-4 items-center '>
+                <div className=' pl-2 flex gap-4 items-center '>
                   <img src="/portrait.jpg" alt="web dp" className='h-8 rounded-full' />
                   <div className=' text-sm py-2 text-left font-bold tracking-widest leading-tight dark:text-white font-sans animate-pulse'>
                     <p>Yemi Oladele</p>
@@ -36,20 +36,23 @@ export default function Home() {
                   </div> 
                 </div>
 
-                <ul className=' flex gap-x-8 md:bg-white md:bg-opacity-40 md:rounded-full text-sm py-1 pr-1 md:px-3 mt-2 md:mt-0 dark:text-white md:dark:bg-gray-800 items-center'>
-
-                  <li><a href="#" className='underline sm:underline-offset-4 decoration-gray-400 hover:bg-gray-400'>Portfolio</a></li>
-                  <li><a href="#" className='underline sm:underline-offset-4 decoration-gray-400 hover:bg-gray-400'>Resume</a></li>
-                  <li><a href="#" className='underline sm:underline-offset-4 decoration-gray-400 hover:bg-gray-400'>About</a></li>
-              
-                </ul>
+                
                 
               </div>
-              <ul>
+              
+              <ul className='sm:flex sm:flex-row-reverse sm:justify-between sm:gap-44'>
 
-                <li className=' mt-2 cursor-pointer'>
-                <TbSunMoon className=' text-lg dark:text-white transition ease-in-out delay-150 hover:animate-pulse hover:-translate-y-0 hover:scale-110'/>
+                <li className=' mt-2 cursor-pointer pr-2'>
+                  <TbSunMoon className=' text-lg dark:text-white transition ease-in-out delay-150 hover:animate-pulse hover:-translate-y-0 hover:scale-110'/>
                 </li>
+
+                <ul className=' flex gap-x-8 sm:bg-neutral-900 sm:rounded-full text-sm py-1 pr-1 md:px-3 mt-2 md:mt-0 dark:text-white sm:dark:bg-neutral-900 items-center'>
+
+                  <li><a href="#" className=' text-white dark:text-yellow-100 px-2 underline sm:underline-offset-2 decoration-neutral-500 dark:decoration-yellow-50 hover:bg-neutral-500 dark:hover:bg-yellow-50 hover:text-white dark:hover:text-black  hover:px-2 hover:rounded-full'>Portfolio</a></li>
+                  <li><a href="#" className=' text-white dark:text-yellow-100 px-2 underline sm:underline-offset-2 decoration-neutral-500 dark:decoration-yellow-50 hover:bg-neutral-500 dark:hover:bg-yellow-50 hover:text-white dark:hover:text-black  hover:px-2 hover:rounded-full'>Resume</a></li>
+                  <li><a href="#" className=' text-white dark:text-yellow-100 px-2 underline sm:underline-offset-2 decoration-neutral-500 dark:decoration-yellow-50 hover:bg-neutral-500 dark:hover:bg-yellow-50 hover:text-white dark:hover:text-black  hover:px-2 hover:rounded-full'>About</a></li>
+              
+                </ul>
 
               </ul>
             </nav>
@@ -67,12 +70,7 @@ export default function Home() {
 
           </section>
 
-          <div className=' flex justify-between'>
-
-            <div className='flex mb-4 ml-3 text-lg lg:text-xl dark:text-white'>
-            <a href='#works' className='rotate-3 hover:-rotate-6 hover:text-purple-700 hover:delay-200 hover:duration-1000'><span className='underline underline-offset-4'>Featured W</span>orks</a>
-            
-            </div>
+          <div className=' text-right'>
 
             <div className=' mt-2 lg:mt-4 mb-4 text-md lg:text-md dark:text-white text-right'>
               <a href="" className='hover:underline decoration-yellow-400 underline-offset-2'>&#128163;GH  </a>
@@ -157,7 +155,7 @@ export default function Home() {
 
       {/* beginning of contact section */}
 
-      <section className=' bg-yellow-500 mt-44 sm:px-11 pt-8'>
+      <section className=' bg-yellow-100 mt-44 sm:px-11 pt-8'>
         
           <div className=' text-lg font-sans font-bold py-6 pb-1'>
             <h4>Available for Select freelance opportunities</h4>
@@ -180,7 +178,7 @@ export default function Home() {
               <a href="mailto:oladeleomoyemi@outlook.com" className=' ml-3 backline animate-from-bottom text-xs sm:text-lg sm:font-thin'>Copy email to clipboard</a>
             </div>
 
-            <div className=' border-l-2 border-neutral-500 pl-3 pt-1'>
+            <div className=' border-l-2 border-gray-400 pl-3 pt-1'>
               <ul className=' text-sm sm:text-xl'>
                 <li><a href="#" className='underline decoration-gray-400 hover:bg-gray-400 font-bold'>GitHub</a></li>
                 <li><a href="#" className='underline decoration-gray-400 hover:bg-gray-400 font-bold'>Twitter</a></li>
@@ -192,10 +190,10 @@ export default function Home() {
 
           <div className=' py-6 sm:flex sm:flex-row-reverse sm:justify-between'>
             
-            <ul className=' px-0 flex gap-x-8 sm:bg-white sm:bg-opacity-10 sm:rounded-full text-sm sm:text-md py-1 sm:px-3 sm:pb-2 mt-2 sm:mt-0 sm:dark:bg-black sm:dark:bg-opacity-80 dark:text-white items-center'>
-              <li><a href="#" className='underline sm:underline-offset-4 decoration-gray-400 hover:bg-gray-400'>Portfolio</a></li>
-              <li><a href="#" className='underline sm:underline-offset-4 decoration-gray-400 hover:bg-gray-400'>Resume</a></li>
-              <li><a href="#" className='underline sm:underline-offset-4 decoration-gray-400 hover:bg-gray-400'>About</a></li>
+            <ul className=' px-0 flex gap-x-8 sm:bg-white sm:bg-opacity-10 sm:rounded-full text-sm sm:text-md py-1 sm:px-3 mt-2 sm:mt-0 sm:dark:bg-black sm:dark:bg-opacity-80 dark:text-white items-center'>
+              <li><a href="#" className=' font-thin backline animate-from-bottom'>Portfolio</a></li>
+              <li><a href="#" className=' font-thin backline animate-from-bottom'>Resume</a></li>
+              <li><a href="#" className=' font-thin backline animate-from-bottom'>About</a></li>
             </ul>
 
             <p className='text-sm italic sm:text-md'>Design, content & development by Yemi Oladele @ 2023.</p>
