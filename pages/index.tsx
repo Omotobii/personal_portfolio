@@ -106,15 +106,15 @@ export default function Home() {
         <section className=' '>
             
             <div className='px-4 lg:px-24'>
-              <div className=' min-w-full sm:h-4 lg:h-24 border-l border-r'>
+              <div className=' min-w-full h-4 sm:h-4 lg:h-24 border-l border-r'>
                 
               </div>
             </div>
             <div className=' px-4 lg:px-24 sm:flex sm:justify-between h-auto border-t border-b'>
 
-              <div className='h-auto px-1 sm:w-1/2 border-l'>
+              <div className='h-auto px-1 sm:w-1/2 border-l border-r sm:border-l'>
 
-                <div className="  mt-8">
+                <div className="  sm:mt-8">
                   <h1 className=' font-mono text-3xl dark:text-white font-bold'>Fountain Holdings Limited</h1>
                   <p className=' font-mono dark:text-white'>The investment arm of the Ekiti State Government</p>
                 </div>
@@ -146,13 +146,13 @@ export default function Home() {
 
               </div> 
 
-              <div className=' sm:w-1/2 sm:border-l sm:border-r sm:p-2'>
+              <div className=' border-l border-r border-t p-2 sm:w-1/2 sm:border-l sm:border-r sm:p-2'>
                 <img src="/OIG.jpeg" alt="project one" className=' w-auto' />
               </div>
 
             </div>
             <div className='px-4 lg:px-24'>
-              <div className=' min-w-full sm:h-4 lg:h-24 border-l border-r'>
+              <div className=' min-w-full h-4 sm:h-4 lg:h-24 border-l border-r'>
                 
               </div>
             </div>         
