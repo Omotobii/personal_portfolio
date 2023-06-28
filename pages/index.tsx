@@ -48,9 +48,9 @@ export default function Home() {
 
                 <ul className=' flex gap-x-3 font-mono sm:gap-x-8 sm:bg-black sm:dark:bg-white sm:rounded-full text-sm py-1 pr-1 sm:px-3 items-center'>
 
-                  <li><a href="#" className=' backline-nav animate-from-bottom-nav dark:text-white sm:text-white sm:dark:text-black'>Portfolio</a></li>
-                  <li><a href="#" className=' backline-nav animate-from-bottom-nav dark:text-white sm:text-white sm:dark:text-black'>Resume</a></li>
-                  <li><a href="#" className=' backline-nav animate-from-bottom-nav dark:text-white sm:text-white sm:dark:text-black'>About</a></li>
+                  <li><a href="#" className=' text-xs sm:text-sm backline-nav animate-from-bottom-nav dark:text-white sm:text-white sm:dark:text-black'>Portfolio</a></li>
+                  <li><a href="#" className=' text-xs sm:text-sm backline-nav animate-from-bottom-nav dark:text-white sm:text-white sm:dark:text-black'>Resume</a></li>
+                  <li><a href="#" className=' text-xs sm:text-sm backline-nav animate-from-bottom-nav dark:text-white sm:text-white sm:dark:text-black'>About</a></li>
               
                 </ul>
 
