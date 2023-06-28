@@ -16,11 +16,11 @@ export default function Home() {
       </Head>
       <main className=' bg-white dark:bg-black scroll-m-1 scroll-smooth'>
 
-      <section className=' px-4 lg:px-24'>
+      <section className=' '>
 
         {/* beginnig of major description */}
 
-        <section className=''>
+        <section className=' px-4 lg:px-11'>
 
           <section className=' fixed inset-x-0 top-0'>
 
@@ -86,8 +86,8 @@ export default function Home() {
 
         {/* beginning of breif description */}
  
-        <section className='sm:px-40'>
-          <p className=' pt-32'><span className=' font-extrabold font-mono text-xl bg-gradient-to-r bg-clip-text text-transparent from-teal-500 to-purple-500'>Frontend Engineer </span><span className='text-white'>&#128170;</span><br /><br /></p>
+        <section className=' px-4 lg:px-24 sm:px-40'>
+          <p className=' pt-32'><span className=' font-extrabold font-mono text-2xl bg-gradient-to-r bg-clip-text text-transparent from-teal-500 to-purple-500'>Frontend <br />Engineer </span><span className='text-white'>&#128170;</span><br /><br /></p>
 
           <p className=' dark:text-white font-mono'>Developing novel and meaningful solutions with a user first approach <br /><br /><br /></p>
 
@@ -98,16 +98,21 @@ export default function Home() {
         
         {/* beggining of featured project section */}
 
-        <section id='works' className=' font-mono mt-28 pt-24 lg:flex lg:justify-between'>
-          <h1 className='text-xl lg:text-xl dark:text-white font-extrabold'>Featured<br></br>Work</h1>
-          <p className=' pt-4'><span className=' tracking-tight bg-gradient-to-r bg-clip-text text-transparent from-teal-600 to-pink-500'>every project is unique </span><span className='text-white'>👌</span></p>
+        <section id='works' className=' px-4 lg:px-24 font-mono mt-28 pt-24 flex justify-between'>
+          <h1 className=' px-1 border-l border-b border-dashed text-2xl bg-gradient-to-r bg-clip-text text-transparent from-teal-600 to-pink-500 font-extrabold'>Featured<br></br>Work</h1>
+          <p className=' pt-4'><span className=' tracking-tight dark:text-white '>every project is unique </span><span className='text-white'>👌</span></p>
         </section>
 
-        <section className=' pt-8'>
+        <section className=' '>
+            
+            <div className='px-4 lg:px-24'>
+              <div className=' min-w-full sm:h-4 lg:h-24 border-l border-r'>
+                
+              </div>
+            </div>
+            <div className=' px-4 lg:px-24 sm:flex sm:justify-between h-auto border-t border-b'>
 
-            <div className=' sm:flex sm:justify-between my-11 h-auto border-t border-b border-gray-400'>
-
-              <div className='h-auto px-1 sm:w-1/2'>
+              <div className='h-auto px-1 sm:w-1/2 border-l'>
 
                 <div className="  mt-8">
                   <h1 className=' font-mono text-3xl dark:text-white font-bold'>Fountain Holdings Limited</h1>
@@ -141,11 +146,16 @@ export default function Home() {
 
               </div> 
 
-              <div className=' m-1 sm:w-1/2'>
+              <div className=' sm:w-1/2 sm:border-l sm:border-r sm:p-2'>
                 <img src="/OIG.jpeg" alt="project one" className=' w-auto' />
               </div>
 
-            </div>          
+            </div>
+            <div className='px-4 lg:px-24'>
+              <div className=' min-w-full sm:h-4 lg:h-24 border-l border-r'>
+                
+              </div>
+            </div>         
 
         </section>
 
