@@ -31,7 +31,7 @@ export default function Home() {
                 <div className=' pl-2 flex gap-4 items-center '>
                   <img src="/dp.jpg" alt="web dp" className='h-8 rounded-full' />
                   <div className=' sm:text-lg py-2 sm:py-1 text-left font-bold font-mono leading-tight dark:text-white'>
-                    <p>YEMI-Oladele</p>
+                    <p>Yemi_Oladele_</p>
                     
                   </div> 
                 </div>
