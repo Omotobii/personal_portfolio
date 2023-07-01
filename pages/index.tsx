@@ -87,7 +87,7 @@ export default function Home() {
         {/* beginning of breif description */}
  
         <section className=' px-4 lg:px-24 sm:px-40'>
-          <p className=' pt-32'><span className=' font-extrabold font-mono text-2xl bg-gradient-to-r bg-clip-text text-transparent from-teal-500 to-purple-500'>Frontend <br />Engineer </span><span className='text-white'>&#128170;</span><br /><br /><br /></p>
+          <p className=' pt-32'><span className=' font-extrabold font-mono border border-dashed text-2xl bg-gradient-to-r bg-clip-text text-transparent from-teal-500 to-purple-500'>Frontend <br />Engineer </span><span className='text-white'>&#128170;</span><br /><br /><br /></p>
 
           <p className=' dark:text-white text-2xl font-mono'>Developing novel and meaningful solutions with a user first approach <br /><br /><br /></p>
 
@@ -99,7 +99,7 @@ export default function Home() {
         {/* beggining of featured project section */}
 
         <section id='works' className=' px-4 lg:px-24 font-mono mt-28 pt-24 flex justify-between'>
-          <h1 className=' px-1 border-l border-b border-dashed text-2xl bg-gradient-to-r bg-clip-text text-transparent from-teal-600 to-pink-500 font-extrabold'>Featured<br></br>Work</h1>
+        <p className=' pt-4'><span className=' font-extrabold font-mono border border-dashed text-2xl bg-gradient-to-r bg-clip-text text-transparent from-teal-500 to-purple-500'>Featured <br />Work </span><br /><br /></p>
           <p className=' pt-4'><span className=' tracking-tight dark:text-white '>every project is unique </span><span className='text-white'>👌</span></p>
         </section>
 
