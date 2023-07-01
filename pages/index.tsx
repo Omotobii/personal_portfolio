@@ -87,11 +87,11 @@ export default function Home() {
         {/* beginning of breif description */}
  
         <section className=' px-4 lg:px-24 sm:px-40'>
-          <p className=' pt-32'><span className=' font-extrabold font-mono text-2xl bg-gradient-to-r bg-clip-text text-transparent from-teal-500 to-purple-500'>Frontend <br />Engineer </span><span className='text-white'>&#128170;</span><br /><br /></p>
+          <p className=' pt-32'><span className=' font-extrabold font-mono text-2xl bg-gradient-to-r bg-clip-text text-transparent from-teal-500 to-purple-500'>Frontend <br />Engineer </span><span className='text-white'>&#128170;</span><br /><br /><br /></p>
 
-          <p className=' dark:text-white font-mono'>Developing novel and meaningful solutions with a user first approach <br /><br /><br /></p>
+          <p className=' dark:text-white text-2xl font-mono'>Developing novel and meaningful solutions with a user first approach <br /><br /><br /></p>
 
-          <p className=' dark:text-white font-mono'>This website is a showcase of my design portfolio, my work experience and some information about me.</p>
+          <p className=' dark:text-white text-2xl font-mono'>This website is a showcase of my design portfolio, my work experience and some information about me.</p>
         </section>
 
         {/* end of breif description */}
