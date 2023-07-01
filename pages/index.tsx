@@ -25,7 +25,7 @@ export default function Home() {
           <section className=' fixed inset-x-0 top-0'>
 
             <center>
-            <nav className=' pb-1 pt-2  sm:p-4 sm:py-3 backdrop-blur-md m-auto flex justify-between'>
+            <nav className=' pb-1 pt-2  sm:p-4 sm:py-3 backdrop-blur-lg m-auto flex justify-between border-b-4 border-black dark:border-white border-opacity-10 dark:border-opacity-10'>
 
               <div className=' block md:flex md:justify-between w-1/2'>
                 <div className=' pl-2 flex gap-4 items-center '>
