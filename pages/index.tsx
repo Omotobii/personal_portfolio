@@ -87,7 +87,7 @@ export default function Home() {
         {/* beginning of breif description */}
  
         <section className=' px-4 lg:px-24 sm:px-40'>
-          <p className=' pt-32'><span className=' font-extrabold font-mono border border-dashed text-2xl bg-gradient-to-r bg-clip-text text-transparent from-teal-500 to-purple-500'>Frontend <br />Engineer </span><span className='text-white'>&#128170;</span><br /><br /><br /></p>
+          <p className=' pt-32'><span className=' font-extrabold font-mono border border-dashed text-2xl bg-gradient-to-r bg-clip-text text-transparent from-teal-500 to-purple-500'>Frontend <br />Engineer <span className='text-white'>&#128170;</span></span><br /><br /><br /></p>
 
           <p className=' dark:text-white text-2xl font-mono'>Developing novel and meaningful solutions with a user first approach <br /><br /><br /></p>
 
@@ -112,11 +112,11 @@ export default function Home() {
             </div>
             <div className=' px-4 lg:px-24 sm:flex sm:justify-between h-auto border-t border-b'>
 
-              <div className='h-auto px-1 sm:w-1/2 border-l border-r sm:border-l'>
+              <div className='h-auto px-1 sm:w-full border-l border-r sm:border-l'>
 
                 <div className="  sm:mt-8">
-                  <h1 className=' font-mono text-3xl dark:text-white font-bold'>Fountain Holdings Limited</h1>
-                  <p className=' font-mono dark:text-white'>The investment arm of the Ekiti State Government</p>
+                  <h1 className=' font-mono text-3xl sm:text-5xl dark:text-white font-bold'>Fountain Holdings Limited</h1>
+                  <p className=' font-mono sm:text-2xl dark:text-white'>The investment arm of the Ekiti State Government</p>
                 </div>
 
                 <div className=' mt-8'>
@@ -140,14 +140,14 @@ export default function Home() {
                 </div>
 
 
-                <div className=' pr-7 '>
+                <div className='  pb-8 pr-7 '>
                   <a href='http://fholdingsltd.com/' className=' font-mono italic dark:text-white'>Visit the Website</a>
                 </div>
 
               </div> 
 
-              <div className=' border-l border-r border-t p-2 sm:w-1/2 sm:border-l sm:border-r sm:p-2'>
-                <img src="/OIG.jpeg" alt="project one" className=' w-auto' />
+              <div className=' border-l border-r border-t p-2 w-full sm:border-l-0 sm:border-t-0 sm:border-r sm:p-0'>
+                <div className=' mx-auto -rotate-2 h-full bg-green-700'><img src="/FHL.jpg" alt="project one" className=' rounded mx-auto -rotate-3 h-full' /></div>
               </div>
 
             </div>
