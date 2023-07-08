@@ -147,7 +147,7 @@ export default function Home() {
               </div> 
 
               <div className=' border-l border-r border-t p-2 w-full sm:border-l-0 sm:border-t-0 sm:border-r sm:p-0'>
-                <div className=' mx-auto h-full bg-green-900'><img src="/FHL.jpg" alt="project one" className=' translate-x-2 translate-y-2 mx-auto h-full' /></div>
+                <div className=' mx-auto h-full bg-green-900'><img src="/FHL.jpg" alt="project one" className=' translate-x-2 translate-y-2 mx-auto h-full border' /></div>
               </div>
 
             </div>
