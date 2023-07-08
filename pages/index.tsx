@@ -22,7 +22,7 @@ export default function Home() {
 
         <section className=' px-4 lg:px-11'>
 
-          <section className=' fixed inset-x-0 top-0'>
+          <section className=' z-40 fixed inset-x-0 top-0'>
 
             <center>
             <nav className=' pb-1 pt-2  sm:p-4 sm:py-3 backdrop-blur-lg m-auto flex justify-between border-b-4 border-black dark:border-white border-opacity-10 dark:border-opacity-10'>
@@ -147,7 +147,7 @@ export default function Home() {
               </div> 
 
               <div className=' border-l border-r border-t p-2 w-full sm:border-l-0 sm:border-t-0 sm:border-r sm:p-0'>
-                <div className=' mx-auto -rotate-2 h-full bg-green-700'><img src="/FHL.jpg" alt="project one" className=' rounded mx-auto -rotate-3 h-full' /></div>
+                <div className=' mx-auto h-full bg-green-900'><img src="/FHL.jpg" alt="project one" className=' translate-x-2 translate-y-2 mx-auto h-full' /></div>
               </div>
 
             </div>
