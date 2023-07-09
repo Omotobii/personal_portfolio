@@ -188,8 +188,8 @@ export default function Home() {
               <a href="mailto:@outlook.com" className=' ml-3 backline animate-from-bottom sm:text-lg sm:font-thin'>Copy email to clipboard</a>
             </div>
 
-            <div className=' pt-1'>
-              <ul className=' text-sm sm:text-xl'>
+            <div className=' pt-11'>
+              <ul className='flex gap-6 text-sm sm:text-xl'>
                 <li><a href="#" className='underline decoration-gray-400 hover:bg-gray-400 font-bold'>GitHub</a></li>
                 <li><a href="#" className='underline decoration-gray-400 hover:bg-gray-400 font-bold'>Twitter</a></li>
                 <li><a href="#" className='underline decoration-gray-400 hover:bg-gray-400 font-bold'>LinkedIn</a></li>
