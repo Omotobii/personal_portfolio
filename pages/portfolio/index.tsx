@@ -64,7 +64,7 @@ export default function Home() {
             <section className='flex items-center pt-32 sm:pt-44 pb-11'>
                 <div className=''>
                 <p className=' font-mono tracking-tighter text-7xl sm:text-8xl lg:text-9xl dark:text-white font-bold'>PORTFOLIO</p>
-                <p className='dark:text-white'>page is till under construction <span className='text-6xl'>😥</span></p>
+                <p className='dark:text-white'>page is till under construction <span className='text-6xl'>&#128679;</span></p>
                 </div>
 
             </section>

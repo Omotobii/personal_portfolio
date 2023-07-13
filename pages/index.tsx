@@ -113,7 +113,7 @@ export default function Home() {
             </div>
             <div className=' group px-4 lg:px-24 sm:flex sm:justify-between h-auto border-t border-b'>
 
-              <div className='h-auto px-1 sm:w-full border-l border-r sm:border-l'>
+              <div className='h-auto px-3 sm:w-full border-l border-r sm:border-l'>
 
                 <div className="  sm:mt-11">
                   <h1 className=' font-mono text-3xl sm:text-5xl dark:text-white font-bold'>Fountain Holdings Limited</h1>
@@ -141,7 +141,7 @@ export default function Home() {
                 </div>
 
 
-                <div className=' text-green-900 flex pt-11 pb-8 pr-7 '>
+                <div className=' text-slate-800 dark:text-slate-400 flex pt-11 pb-8 pr-7 '>
                   <div><a href='http://fholdingsltd.com/' className=' pl-2 font-mono'>Visit the Website</a></div>
                   <div className=' transition ease-in-out group-hover:translate-x-8 group-hover:duration-500 '><a href='http://fholdingsltd.com/' className=' pl-2 font-mono'>▶</a></div>
                 </div>
