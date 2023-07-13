@@ -110,7 +110,7 @@ export default function Home() {
                 
               </div>
             </div>
-            <div className=' px-4 lg:px-24 sm:flex sm:justify-between h-auto border-t border-b'>
+            <div className=' group px-4 lg:px-24 sm:flex sm:justify-between h-auto border-t border-b'>
 
               <div className='h-auto px-1 sm:w-full border-l border-r sm:border-l'>
 
@@ -120,34 +120,35 @@ export default function Home() {
                 </div>
 
                 <div className=' mt-8'>
-                  <p className=' font-mono dark:text-white'>
+                  <p className=' pl-2 font-mono dark:text-white'>
                     2020
                   </p>
                 </div>
 
                 <div className=' flex gap-4'>
-                  <p className=' font-medium text-xs dark:text-white bg-gray-400 bg-opacity-40 rounded-full py-1 px-2'>
+                  <p className=' font-medium text-xs dark:text-white dark bg-slate-800 bg-opacity-40 rounded-full py-1 px-2'>
                     HTML
                   </p>
 
-                  <p className=' font-medium text-xs dark:text-white bg-gray-400 bg-opacity-40 rounded-full py-1 px-2'>
+                  <p className=' font-medium text-xs dark:text-white dark bg-slate-800 bg-opacity-40 rounded-full py-1 px-2'>
                     CSS
                   </p>
 
-                  <p className=' font-medium text-xs dark:text-white bg-gray-400 bg-opacity-40 rounded-full py-1 px-2'>
+                  <p className=' font-medium text-xs dark:text-white dark bg-slate-800 bg-opacity-40 rounded-full py-1 px-2'>
                     JavaScript
                   </p>
                 </div>
 
 
-                <div className='  pb-8 pr-7 '>
-                  <a href='http://fholdingsltd.com/' className=' font-mono italic dark:text-white'>Visit the Website</a>
+                <div className=' flex pb-8 pr-7 '>
+                  <div><a href='http://fholdingsltd.com/' className=' pl-2 font-mono dark:text-white'>Visit the Website</a></div>
+                  <div className=' transition ease-in-out group-hover:translate-x-6 group-hover:duration-500 '><a href='http://fholdingsltd.com/' className=' pl-2 font-mono text-green-900'>▶</a></div>
                 </div>
 
               </div> 
 
               <div className=' border-l border-r border-t p-2 w-full sm:border-l-0 sm:border-t-0 sm:border-r sm:p-0'>
-                <div className=' mx-auto h-full bg-green-900'><img src="/FHL.jpg" alt="project one" className=' translate-x-2 translate-y-2 mx-auto h-full border' /></div>
+                <div className=' mx-auto h-full p-2 bg-black'><img src="/FHL.png" alt="project one" className='  group-hover:scale-110 duration-300 mx-auto h-full border' /></div>
               </div>
 
             </div>
