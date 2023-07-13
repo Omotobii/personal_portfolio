@@ -148,7 +148,7 @@ export default function Home() {
               </div> 
 
               <div className=' border-l border-r border-t p-2 w-full sm:border-l-0 sm:border-t-0 sm:border-r sm:p-0'>
-                <div className=' mx-auto h-full p-2 bg-black'><img src="/FHL.png" alt="project one" className='  group-hover:scale-110 duration-300 mx-auto h-full border' /></div>
+                <div className=' mx-auto h-full p-2 bg-slate-800'><img src="/FHL.png" alt="project one" className='  group-hover:scale-110 duration-300 mx-auto h-full border' /></div>
               </div>
 
             </div>
