@@ -28,14 +28,15 @@ export default function Home() {
             <nav className=' pb-1 pt-2  sm:p-4 sm:py-3 backdrop-blur-lg m-auto flex justify-between border-b-4 border-black dark:border-white border-opacity-10 dark:border-opacity-10'>
 
               <div className=' block md:flex md:justify-between w-1/2'>
-                <div className=' pl-2 flex gap-4 items-center '>
+                <a href="#">
+                  <div className=' pl-2 flex gap-4 items-center '>
                   <img src="/dp.jpg" alt="web dp" className='h-8 rounded-full' />
                   <div className=' sm:text-lg py-2 sm:py-1 text-left font-bold font-mono leading-tight dark:text-white'>
                     <p>Yemi_Oladele_</p>
                     
                   </div> 
-                </div>
-
+                  </div>
+                </a>
                 
                 
               </div>
@@ -48,9 +49,9 @@ export default function Home() {
 
                 <ul className=' flex gap-x-3 font-mono sm:gap-x-8 sm:bg-black sm:dark:bg-white sm:rounded-full text-sm py-1 pr-1 sm:px-3 items-center'>
 
-                  <li><a href="#" className=' text-xs sm:text-sm backline-nav animate-from-bottom-nav dark:text-white sm:text-white sm:dark:text-black'>Portfolio</a></li>
-                  <li><a href="#" className=' text-xs sm:text-sm backline-nav animate-from-bottom-nav dark:text-white sm:text-white sm:dark:text-black'>Resume</a></li>
-                  <li><a href="#" className=' text-xs sm:text-sm backline-nav animate-from-bottom-nav dark:text-white sm:text-white sm:dark:text-black'>About</a></li>
+                  <li><a href="portfolio" className=' text-xs sm:text-sm backline-nav animate-from-bottom-nav dark:text-white sm:text-white sm:dark:text-black'>Portfolio</a></li>
+                  <li><a href="resume" className=' text-xs sm:text-sm backline-nav animate-from-bottom-nav dark:text-white sm:text-white sm:dark:text-black'>Resume</a></li>
+                  <li><a href="about" className=' text-xs sm:text-sm backline-nav animate-from-bottom-nav dark:text-white sm:text-white sm:dark:text-black'>About</a></li>
               
                 </ul>
 
@@ -87,7 +88,7 @@ export default function Home() {
         {/* beginning of breif description */}
  
         <section className=' px-4 lg:px-24 sm:px-40'>
-          <p className=' pt-32'><span className=' font-extrabold font-mono border border-dashed text-2xl bg-gradient-to-r bg-clip-text text-transparent from-teal-500 to-purple-500'>Frontend <br />Engineer <span className='text-white'>&#128170;</span></span><br /><br /><br /></p>
+          <p className=' pt-32'><span className=' font-extrabold font-mono text-2xl bg-gradient-to-r bg-clip-text text-transparent from-teal-500 to-purple-500'>Frontend <br />Engineer <span className='text-white'>&#128170;</span></span><br /><br /><br /></p>
 
           <p className=' dark:text-white text-2xl font-mono'>Developing novel and meaningful solutions with a user first approach <br /><br /><br /></p>
 
@@ -99,7 +100,7 @@ export default function Home() {
         {/* beggining of featured project section */}
 
         <section id='works' className=' px-4 lg:px-24 font-mono mt-28 pt-24 flex justify-between'>
-        <p className=' pt-4'><span className=' font-extrabold font-mono border border-dashed text-2xl bg-gradient-to-r bg-clip-text text-transparent from-teal-500 to-purple-500'>Featured <br />Work </span><br /><br /></p>
+        <p className=' pt-4'><span className=' font-extrabold font-mono text-2xl bg-gradient-to-r bg-clip-text text-transparent from-teal-500 to-purple-500'>Featured <br />Work </span><br /><br /></p>
           <p className=' pt-4'><span className=' tracking-tight dark:text-white '>every project is unique </span><span className='text-white'>👌</span></p>
         </section>
 
@@ -114,7 +115,7 @@ export default function Home() {
 
               <div className='h-auto px-1 sm:w-full border-l border-r sm:border-l'>
 
-                <div className="  sm:mt-8">
+                <div className="  sm:mt-11">
                   <h1 className=' font-mono text-3xl sm:text-5xl dark:text-white font-bold'>Fountain Holdings Limited</h1>
                   <p className=' font-mono sm:text-2xl dark:text-white'>The investment arm of the Ekiti State Government</p>
                 </div>
@@ -140,15 +141,15 @@ export default function Home() {
                 </div>
 
 
-                <div className=' flex pb-8 pr-7 '>
-                  <div><a href='http://fholdingsltd.com/' className=' pl-2 font-mono dark:text-white'>Visit the Website</a></div>
-                  <div className=' transition ease-in-out group-hover:translate-x-6 group-hover:duration-500 '><a href='http://fholdingsltd.com/' className=' pl-2 font-mono text-green-900'>▶</a></div>
+                <div className=' text-green-900 flex pt-11 pb-8 pr-7 '>
+                  <div><a href='http://fholdingsltd.com/' className=' pl-2 font-mono'>Visit the Website</a></div>
+                  <div className=' transition ease-in-out group-hover:translate-x-8 group-hover:duration-500 '><a href='http://fholdingsltd.com/' className=' pl-2 font-mono'>▶</a></div>
                 </div>
 
               </div> 
 
               <div className=' border-l border-r border-t w-full sm:border-l-0 sm:border-t-0 sm:border-r sm:p-0'>
-                <div className=' mx-auto h-full p-2 bg-slate-800'><img src="/FHL.png" alt="project one" className='  group-hover:scale-110 duration-300 mx-auto h-full border' /></div>
+                <div className=' mx-auto h-full p-2 bg-slate-800'><img src="/FHL.png" alt="project one" className='  group-hover:scale-110 duration-300 mx-auto h-full' /></div>
               </div>
 
             </div>
