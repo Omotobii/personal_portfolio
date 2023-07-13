@@ -73,9 +73,9 @@ export default function Home() {
           <div className=' text-right'>
 
             <div className=' mt-2 lg:mt-4 mb-4 text-lg lg:text-xl dark:text-white text-right'>
-              <a href="" className='hover:underline decoration-teal-400 underline-offset-2'>&#128163;GH  </a>
-              <a href="" className='hover:underline decoration-teal-400 underline-offset-2'>&#128038;TW  </a>
-              <a href="" className='hover:underline decoration-teal-400 underline-offset-2'>&#128188;LD</a>
+              <a href="https://github.com/Omotobii" className='hover:underline decoration-teal-400 underline-offset-2'>&#128163;GH  </a>
+              <a href="https://twitter.com/_Omotobi" className='hover:underline decoration-teal-400 underline-offset-2'>&#128038;TW  </a>
+              <a href="https://www.linkedin.com/in/omoyemi-oladele-8747a7198" className='hover:underline decoration-teal-400 underline-offset-2'>&#128188;LD</a>
             </div>
 
           </div>
@@ -147,7 +147,7 @@ export default function Home() {
 
               </div> 
 
-              <div className=' border-l border-r border-t p-2 w-full sm:border-l-0 sm:border-t-0 sm:border-r sm:p-0'>
+              <div className=' border-l border-r border-t w-full sm:border-l-0 sm:border-t-0 sm:border-r sm:p-0'>
                 <div className=' mx-auto h-full p-2 bg-slate-800'><img src="/FHL.png" alt="project one" className='  group-hover:scale-110 duration-300 mx-auto h-full border' /></div>
               </div>
 
@@ -191,9 +191,9 @@ export default function Home() {
 
             <div className=' pt-11'>
               <ul className='flex gap-6 text-sm sm:text-xl'>
-                <li><a href="#" className='underline decoration-gray-400 hover:bg-gray-400 font-bold'>GitHub</a></li>
-                <li><a href="#" className='underline decoration-gray-400 hover:bg-gray-400 font-bold'>Twitter</a></li>
-                <li><a href="#" className='underline decoration-gray-400 hover:bg-gray-400 font-bold'>LinkedIn</a></li>
+                <li><a href="https://github.com/Omotobii" className='underline decoration-gray-400 hover:bg-gray-400 font-bold'>GitHub</a></li>
+                <li><a href="https://twitter.com/_Omotobi" className='underline decoration-gray-400 hover:bg-gray-400 font-bold'>Twitter</a></li>
+                <li><a href="https://www.linkedin.com/in/omoyemi-oladele-8747a7198" className='underline decoration-gray-400 hover:bg-gray-400 font-bold'>LinkedIn</a></li>
               </ul>
             </div>
 
