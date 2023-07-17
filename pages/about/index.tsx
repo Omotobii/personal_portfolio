@@ -119,8 +119,8 @@ export default function Home() {
             <div className=' px-3 sm:px-8 py-6 sm:flex sm:flex-row-reverse sm:justify-between'>
                 
                 <ul className=' px-0 flex gap-x-8 sm:bg-white sm:bg-opacity-10 sm:rounded-full sm:text-lg py-1 sm:px-3 mt-2 sm:mt-0 sm:dark:bg-neutral-200 sm:dark:text-black items-center'>
-                <li><a href="#" className=' font-thin backline animate-from-bottom'>Portfolio</a></li>
-                <li><a href="#" className=' font-thin backline animate-from-bottom'>Resume</a></li>
+                <li><a href="portfolio" className=' font-thin backline animate-from-bottom'>Portfolio</a></li>
+                <li><a href="resume" className=' font-thin backline animate-from-bottom'>Resume</a></li>
                 <li><a href="#" className=' font-thin backline animate-from-bottom'>About</a></li>
                 </ul>
 
