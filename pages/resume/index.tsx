@@ -67,20 +67,45 @@ export default function Home() {
                 </div>
 
             </section>
+
+            <section className='mt-96'>
+                <div className='dark:text-white'>
+                    <h1>OMOYEMI OLADELE</h1>
+
+                    <h3>Web Developer, Concrete manufacturer</h3>
+
+                    <a href="https://www.linkedin.com/in/oladele-omoyemi-8747a7198">LinkedIn</a><br />
+                    <a href="">+234 810 125 3106</a><br />
+                    <a href="mailto:yemi.oladele@outlook.com">yemi.oladele@outlook.com</a>
+                </div>
+
+                <div className='dark:text-white'>
+                    <h4>PROFESSIONAL SUMMARY</h4>
+
+                    <p>A driven web developer brings enthusiasm and a detailed understanding of various programming languages to webpage planning, development and maintenance, well versed in team collaboration to formulate and conceptualise corporate web presence. Experienced designing and developing sites from concept to roll out. Foundational grasp of various CSS and HTML options plugins, development platforms and security requirements according to up-to-date standards. A data-driven individual with an excellent understanding of Google Analytics and other search optimisation needs.</p>
+
+                    <h4>WORK HISTORY</h4>
+
+                    <p>freelance <br /><span>OCTOBER 2020 - CURRENT</span></p>
+
+                    <p>Web Master - <span>Fountain Holdings Limited, Ado-Ekiti, Ng</span> <br /><span>OCTOBER 2020 - APRIL 2023</span></p>
+                    <ul>
+                        <li>Configured and purchased domains for websites</li>
+                        <li>Designed and developed the organizations’ website using HTML, CSS, and JavaScript from the ground up</li>
+                        <li>Worked together with the marketing and promotion department to brainstorm ways to promote digital awareness of the organisation</li>
+                        <li>Backed up or modified applications and related data to provide for disaster recovery</li>
+                        <li>Troubleshoot issues with websites and fixed scripting and use issues</li>
+                        <li>Trained support staff in site implementation, updating and maintenance procedures</li>
+                        <li>Quickly learned new skills and applied them to daily tasks, improving efficiency and productivity</li>
+                        <li>Used critical thinking to break down problems, evaluate solutions and make decisions</li>
+                        <li>Actively listened to customers, handled concerns quickly and escalated major issues to supervisors</li>
+                    </ul>
+                </div>
+            </section>
         
         </section>
 
-        {/* end of major description */}
 
-        {/* beginning of breif description */}
-
-        {/* end of breif description */}
-        
-        {/* beggining of featured project section */}
-
-        {/* end of featured project section */}
-
-        {/* beginning of contact section */}
 
         <section className=' font-mono bg-black dark:bg-white dark:text-black text-white mt-44 pt-8'>
             

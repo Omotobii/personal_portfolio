@@ -71,18 +71,6 @@ export default function Home() {
         
         </section>
 
-        {/* end of major description */}
-
-        {/* beginning of breif description */}
-
-        {/* end of breif description */}
-        
-        {/* beggining of featured project section */}
-
-        {/* end of featured project section */}
-
-        {/* beginning of contact section */}
-
         <section className=' font-mono bg-black dark:bg-white dark:text-black text-white mt-44 pt-8'>
             
             <div className=' text-lg font-bold px-3 sm:px-8 py-6 pb-1'>
