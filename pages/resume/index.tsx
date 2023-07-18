@@ -91,7 +91,7 @@ export default function Home() {
                     <p>Web Master - <span>Fountain Holdings Limited, Ado-Ekiti, Ng</span> <br /><span>OCTOBER 2020 - APRIL 2023</span></p>
                     <ul>
                         <li>Configured and purchased domains for websites</li>
-                        <li>Designed and developed the organizations’ website using HTML, CSS, and JavaScript from the ground up</li>
+                        <li>Designed and developed the organizations website using HTML, CSS, and JavaScript from the ground up</li>
                         <li>Worked together with the marketing and promotion department to brainstorm ways to promote digital awareness of the organisation</li>
                         <li>Backed up or modified applications and related data to provide for disaster recovery</li>
                         <li>Troubleshoot issues with websites and fixed scripting and use issues</li>
