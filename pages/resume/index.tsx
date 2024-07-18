@@ -67,13 +67,13 @@ export default function Resume() {
         {/* Resume Content */}
         <section className="px-5 lg:px-24 pt-32">
           <div className="pb-8">
-            <h2 className="font-extrabold w-max font-mono text-3xl bg-gradient-to-r bg-clip-text text-transparent from-green-500 to-white">
+            <h2 className="font-extrabold w-max font-mono text-3xl bg-gradient-to-r bg-clip-text text-transparent from-green-500 to-black dark:to-white">
               Resume
             </h2>
           </div>
 
           <div className="dark:text-white">
-            <h3 className="text-2xl text-green-100 mt-8 font-bold mb-4">
+            <h3 className="text-2xl dark:text-green-100 text-green-800 mt-8 font-bold mb-4">
               Omoyemi Oladele
             </h3>
             <p className="italic text-lg mb-4">
@@ -88,7 +88,7 @@ export default function Resume() {
               and staying up-to-date on the latest front-end trends.
             </p>
 
-            <h4 className="text-xl text-green-100 font-bold mt-8 mb-4">
+            <h4 className="text-xl dark:text-green-100 text-green-800 font-bold mt-8 mb-4">
               Technical Skills
             </h4>
             <div className="grid grid-cols-1 sm:grid-cols-2">
@@ -106,7 +106,7 @@ export default function Resume() {
               </ul>
             </div>
 
-            <h4 className="text-xl text-green-100 font-bold mt-8 mb-4">
+            <h4 className="text-xl dark:text-green-100 text-green-800 font-bold mt-8 mb-4">
               Tools and Frameworks
             </h4>
             <p className="mb-4">
@@ -114,7 +114,7 @@ export default function Resume() {
               Git, GitHub, Trello, Postman, ApexCharts, React, Next.js, Redux
             </p>
 
-            <h4 className="text-xl text-green-100 font-bold mt-8 mb-4">
+            <h4 className="text-xl dark:text-green-100 text-green-800 font-bold mt-8 mb-4">
               Work Experience
             </h4>
             <div className="mb-8">
@@ -165,7 +165,7 @@ export default function Resume() {
               </ul>
             </div>
 
-            <h4 className="text-xl text-green-100 font-bold mt-8 mb-4">
+            <h4 className="text-xl dark:text-green-100 text-green-800 font-bold mt-8 mb-4">
               Certifications
             </h4>
             <ul className="list-disc list-inside mb-4">
@@ -186,7 +186,7 @@ export default function Resume() {
         </section>
 
         {/* Contact Section */}
-        <section className=" font-mono bg-green-50 dark:text-black text-white mt-44 pt-8">
+        <section className=" font-mono bg-green-50 text-black mt-44 pt-8">
           <div className="px-5 lg:px-24">
             <div className=" text-lg font-bold py-6 pb-1">
               <h4>Available for Select freelance opportunities</h4>

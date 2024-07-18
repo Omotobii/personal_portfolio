@@ -67,14 +67,14 @@ export default function Resume() {
         {/* Resume Content */}
         <section className="px-5 lg:px-24 pt-32">
           <div className="pb-8">
-            <h2 className="font-extrabold w-max font-mono text-3xl bg-gradient-to-r bg-clip-text text-transparent from-green-500 to-white">
+            <h2 className="font-extrabold w-max font-mono text-3xl bg-gradient-to-r bg-clip-text text-transparent from-green-500 to-black dark:to-white">
               Hello <span className="text-white">👋</span>
             </h2>
           </div>
 
           <div className="sm:grid gap-8 sm:grid-cols-3">
             <div className="dark:text-white col-span-2">
-              <h4 className="text-xl text-green-100 font-bold mt-8 mb-4">
+              <h4 className="text-xl dark:text-green-100 text-green-800 font-bold mt-8 mb-4">
                 Name
               </h4>
               <p className="text-lg mb-4">
@@ -83,7 +83,7 @@ export default function Resume() {
                 Both are Yoruba names. You can simply call me "Yemi".
               </p>
 
-              <h4 className="text-xl text-green-100 font-bold mt-8 mb-4">
+              <h4 className="text-xl dark:text-green-100 text-green-800 font-bold mt-8 mb-4">
                 Past
               </h4>
               <p className="text-lg mb-4">
@@ -97,7 +97,7 @@ export default function Resume() {
                 which helped me land my first job.
               </p>
 
-              <h4 className="text-xl text-green-100 font-bold mt-8 mb-4">
+              <h4 className="text-xl dark:text-green-100 text-green-800 font-bold mt-8 mb-4">
                 Present
               </h4>
               <p className="text-lg mb-4">
@@ -116,7 +116,7 @@ export default function Resume() {
                 play video games, and recently, taking up new hobbies.
               </p>
 
-              <h4 className="text-xl text-green-100 font-bold mt-8 mb-4">
+              <h4 className="text-xl dark:text-green-100 text-green-800 font-bold mt-8 mb-4">
                 Future
               </h4>
               <p className="text-lg mb-4">
@@ -145,7 +145,7 @@ export default function Resume() {
         </section>
 
         {/* Contact Section */}
-        <section className=" font-mono bg-green-50 dark:text-black text-white mt-44 pt-8">
+        <section className=" font-mono bg-green-50 text-black mt-44 pt-8">
           <div className="px-5 lg:px-24">
             <div className=" text-lg font-bold py-6 pb-1">
               <h4>Available for Select freelance opportunities</h4>

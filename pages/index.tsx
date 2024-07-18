@@ -80,7 +80,7 @@ export default function Home() {
 
             <section className=" px-5 w-full pt-32 lg:px-24 sm:px-40">
               <div className="pb-3 sm:pb-8">
-                <h2 className="font-extrabold lg:w-max font-mono text-5xl bg-gradient-to-r bg-clip-text text-transparent from-green-500 to-white ">
+                <h2 className="font-extrabold lg:w-max font-mono text-5xl bg-gradient-to-r bg-clip-text text-transparent from-green-500 dark:to-white to-black ">
                   Frontend Engineer
                   <span className="text-white"> &#128170;</span>
                 </h2>
@@ -166,7 +166,7 @@ export default function Home() {
             className=" px-4 lg:px-24 mt-10 md:mt-28 pt-24 flex flex-col sm:flex-row justify-between"
           >
             <p className="pb-2 md:pb-8 pt-4">
-              <span className=" font-extrabold font-mono text-3xl bg-gradient-to-r bg-clip-text text-transparent from-green-500 to-white">
+              <span className=" font-extrabold font-mono text-3xl bg-gradient-to-r bg-clip-text text-transparent from-green-500 dark:to-white to-black">
                 Featured Work
               </span>
             </p>
@@ -179,48 +179,54 @@ export default function Home() {
           </section>
 
           <section className="px-5 lg:px-24">
-            <div className="group flex flex-col-reverse sm:flex-row sm:justify-between h-auto border">
-              <div className="flex flex-col justify-between h-auto p-4 md:p-12 sm:w-full ">
-                <div className="">
-                  <h1 className="  text-3xl sm:text-5xl dark:text-white font-bold">
-                    Fountain Holdings Limited
-                  </h1>
-                  <p className="italic  sm:text-lg dark:text-white">
-                    The investment arm of the Ekiti State Government
-                  </p>
-                </div>
-
-                <div>
-                  <div className=" my-4">
-                    <p className=" pl-2 text-green-400">2020</p>
+            <a
+              href="http://www.fholdingsltd.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="group flex flex-col-reverse sm:flex-row sm:justify-between h-auto border">
+                <div className="flex flex-col justify-between h-auto p-4 md:p-12 sm:w-full ">
+                  <div className="">
+                    <h1 className="  text-3xl sm:text-5xl dark:text-white font-bold">
+                      Fountain Holdings Limited
+                    </h1>
+                    <p className="italic  sm:text-lg dark:text-white">
+                      The investment arm of the Ekiti State Government
+                    </p>
                   </div>
 
-                  <div className=" flex gap-4">
-                    <p className=" font-medium dark:text-white dark bg-slate-800 bg-opacity-40 rounded-full py-1 px-2">
-                      HTML
-                    </p>
+                  <div>
+                    <div className=" my-4">
+                      <p className=" pl-2 text-green-400">2020</p>
+                    </div>
 
-                    <p className=" font-medium dark:text-white dark bg-slate-800 bg-opacity-40 rounded-full py-1 px-2">
-                      CSS
-                    </p>
+                    <div className=" flex gap-4">
+                      <p className=" font-medium dark:text-white dark bg-slate-800 bg-opacity-40 rounded-full py-1 px-2">
+                        HTML
+                      </p>
 
-                    <p className=" font-medium dark:text-white dark bg-slate-800 bg-opacity-40 rounded-full py-1 px-2">
-                      JavaScript
-                    </p>
+                      <p className=" font-medium dark:text-white dark bg-slate-800 bg-opacity-40 rounded-full py-1 px-2">
+                        CSS
+                      </p>
+
+                      <p className=" font-medium dark:text-white dark bg-slate-800 bg-opacity-40 rounded-full py-1 px-2">
+                        JavaScript
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className=" border-l border-r border-t w-full sm:border-l-0 sm:border-t-0 sm:border-r sm:p-0">
+                  <div className=" mx-auto h-full p-2 bg-green-50 bg-opacity-80">
+                    <img
+                      src="/FHL.png"
+                      alt="project one"
+                      className="group-hover:blur-none lg:blur-sm blur-none duration-300 mx-auto h-full"
+                    />
                   </div>
                 </div>
               </div>
-
-              <div className=" border-l border-r border-t w-full sm:border-l-0 sm:border-t-0 sm:border-r sm:p-0">
-                <div className=" mx-auto h-full p-2 bg-green-50 bg-opacity-80">
-                  <img
-                    src="/FHL.png"
-                    alt="project one"
-                    className="group-hover:blur-none lg:blur-sm blur-none duration-300 mx-auto h-full"
-                  />
-                </div>
-              </div>
-            </div>
+            </a>
           </section>
         </section>
 
@@ -228,7 +234,7 @@ export default function Home() {
 
         {/* beginning of contact section */}
 
-        <section className=" font-mono bg-green-50 dark:text-black text-white mt-44 pt-8">
+        <section className=" font-mono bg-green-50 text-black mt-44 pt-8">
           <div className="px-5 lg:px-24">
             <div className=" text-lg font-bold py-6 pb-1">
               <h4>Available for Select freelance opportunities</h4>

@@ -67,7 +67,7 @@ export default function Portfolio() {
         {/* Project List */}
         <section className="px-5 lg:px-24 pt-32">
           <div className="pb-8">
-            <h2 className="font-extrabold w-max font-mono text-3xl bg-gradient-to-r bg-clip-text text-transparent from-green-500 to-white">
+            <h2 className="font-extrabold w-max font-mono text-3xl bg-gradient-to-r bg-clip-text text-transparent from-green-500 to-black dark:to-white">
               Portfolio
             </h2>
           </div>
@@ -243,7 +243,7 @@ export default function Portfolio() {
         </section>
 
         {/* Contact Section */}
-        <section className=" font-mono bg-green-50 dark:text-black text-white mt-44 pt-8">
+        <section className=" font-mono bg-green-50 text-black mt-44 pt-8">
           <div className="px-5 lg:px-24">
             <div className=" text-lg font-bold py-6 pb-1">
               <h4>Available for Select freelance opportunities</h4>
